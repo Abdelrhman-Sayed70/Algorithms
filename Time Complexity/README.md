@@ -1,6 +1,6 @@
 # Time Complexity
 
-## 1- Running Time T(N)
+## `1- Running Time T(N)`
 - Calculate the number of steps that the algorithm takes as a function in input size 
 - Each operation in the code has a cost 
 - Examples :
@@ -20,3 +20,4 @@
   }
   // Total Cost = 1 + 1 + n + 1 + 2n + 2n = 5n + 3 steps
   ```
+- Relation between the time and input size is **Linear**. When input size increases the total number of operations increases
