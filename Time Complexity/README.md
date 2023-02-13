@@ -8,7 +8,7 @@
   ```cpp
   count = count + 1 // Cost1 = 2 
   sum = sum + count // Cost2 = 2
-  // Total Cost = 2 + 2 = 4 operations
+  // Total Cost = 2 + 2 = 4 steps
   ```
   ```cpp
   i = 1; // cost = 1
@@ -18,5 +18,5 @@
     i = i + 1;  // cost = 2n 
     sum = sum + 1; // cost = 2n 
   }
-  // Total Cost = 1 + 1 + n + 1 + 2n + 2n = 5n + 3 
+  // Total Cost = 1 + 1 + n + 1 + 2n + 2n = 5n + 3 steps
   ```
