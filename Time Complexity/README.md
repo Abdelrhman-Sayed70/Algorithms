@@ -65,4 +65,6 @@
   `estimate : O(N^2) but actually it takes less (more than worst case) than this complexity so its Over estimate`
   
   `accurate : sum from 1 to n-1 is N^2 / 2 - N/2 so the accurate complexity is also N^2`
-  
+
+## `4- Complexity classes`
+![Screenshot 2023-02-13 204307](https://user-images.githubusercontent.com/99830416/218546450-6cf00c52-6e42-42a2-9082-9655e48f4cf0.png)
