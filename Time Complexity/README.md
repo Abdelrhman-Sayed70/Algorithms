@@ -1,6 +1,6 @@
-# Time Complexity
+# Time Analysis
 
-## `1- Running Time T()`
+## `1- Running Time T(N)`
 - Calculate the number of steps that the algorithm takes as a function in input size 
 - Each operation in the code has a cost 
 - Examples :
@@ -45,4 +45,24 @@
   T(N) = log(N^1000) -> O(log(N))
   ```
   
-  ##### `Large input then Order notation O() is powerful But Small inpute then Running time T(n) is accurate`
+  ##### `Large input then Order notation O() is accurate But Small input then Running time T(n) is accurate`
+
+
+## `3- How to calculate O()`
+ `Alwayes assume worst`
+- Statements : O(1) 
+- Function call : O(function excution)
+- If/Switch statements : O(if body) + O(cond.)
+- Loops : number of iterations * O(Body)
+- Examples : 
+
+  ```cpp
+  for i = 1 to n :
+    for j = i to n :
+      return True
+  return False
+  ```
+  `estimate : O(N^2) but actually it takes less (more than worst case) than this complexity so its Over estimate`
+  
+  `accurate : sum from 1 to n-1 is N^2 / 2 - N/2 so the accurate complexity is also N^2`
+  
