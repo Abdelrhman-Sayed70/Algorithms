@@ -1,2 +1,3 @@
 # Algorithms
-![1_VxgYISRmyEOCPGMbBh8VFg](https://user-images.githubusercontent.com/99830416/218540709-420cf711-6b53-447c-81a5-c2f3436b7816.gif)
+![عالم-الرياضيات-الخوارزمي](https://user-images.githubusercontent.com/99830416/218716222-201d2f86-1dc1-4f07-97ff-8d8321083c95.jpg)
+ 
