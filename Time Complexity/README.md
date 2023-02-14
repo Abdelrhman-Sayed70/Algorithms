@@ -62,7 +62,7 @@
       return True
   return False
   ```
-  `estimate : O(N^2) but actually it takes less (more than worst case) than this complexity so its Over estimate`
+  `estimate : O(N^2) but actually it takes less than this complexity, so its Over estimate`
   
   `accurate : sum from 1 to n-1 is N^2 / 2 - N/2 so the accurate complexity is also N^2`
 
