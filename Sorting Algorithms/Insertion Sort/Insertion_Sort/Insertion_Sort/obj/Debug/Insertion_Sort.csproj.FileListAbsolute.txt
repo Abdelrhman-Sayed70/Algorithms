@@ -1,0 +1,8 @@
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\bin\Debug\Insertion_Sort.exe.config
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\bin\Debug\Insertion_Sort.exe
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\bin\Debug\Insertion_Sort.pdb
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.csproj.AssemblyReference.cache
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.csproj.SuggestedBindingRedirects.cache
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.csproj.CoreCompileInputs.cache
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.exe
+F:\visual_studio_projects\Insertion_Sort\Insertion_Sort\obj\Debug\Insertion_Sort.pdb
