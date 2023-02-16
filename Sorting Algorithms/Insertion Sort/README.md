@@ -63,3 +63,18 @@ namespace csharp
 }
 
 ```
+
+## `Time complexity`
+### Best Case 
+
+- Already sorted array 
+- Inner loop never excuted O(1)
+- Final Order : O(N)
+
+### Worst Case 
+
+- Array sorted reversely
+- Inner loop excuted for all iterations of the outer loop O(N)
+- Final Order : O(N^2)
+
+
