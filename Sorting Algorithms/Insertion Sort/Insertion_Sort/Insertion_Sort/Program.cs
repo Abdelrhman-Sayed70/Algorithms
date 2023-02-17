@@ -20,6 +20,7 @@ namespace Insertion_Sort
                     {
                         break;
                     }
+
                     arr[j + 1] = arr[j];
                     j--;
                 }
