@@ -15,7 +15,7 @@
   ```cs
   for(int i = 0 ; i * i < n; i++) { sum += i; }
   ```
-  `Complexity is O(Sqrt(n)) for all cases`
+  `Complexity is Θ(Sqrt(n)) for all cases`
 
 # Big O() formal definition
 - It is function F(n) that its upper bound is O(g(n)) `g(n) above f(n) graphically` when `g(n) >= f(n)`
