@@ -24,3 +24,21 @@
 - `n0`, `c` are positive constants
 
     ![image](https://user-images.githubusercontent.com/99830416/221245227-d9315216-f9be-485f-97c6-7f743c5788be.png)
+
+# O(), Ω(), Θ()
+
+## O() Upper bound 
+#### `f(n) <= cg(n)` 
+- Constant c 
+- for all n >= n0
+
+## Ω() Lower bound
+#### `f(n) >= cg(n)` for: <br>
+- Constant c
+- for all n >= n0 
+
+## Θ() Exact
+#### `f(n) > c1g(n)` `f(n) < c2g(n)`
+#### `c1g(n) <= f(n) <= c2g(n)`
+- Constant c1 small, c2 big
+- for all n >= n0 
