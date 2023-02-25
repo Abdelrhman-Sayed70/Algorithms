@@ -38,7 +38,7 @@
 - for all n >= n0 
 
 ## Θ() Exact
-#### `f(n) > c1g(n)` `f(n) < c2g(n)`
+#### `f(n) >= c1g(n)` `f(n) <= c2g(n)`
 #### `c1g(n) <= f(n) <= c2g(n)`
 - Constant c1 small, c2 big
 - for all n >= n0 
