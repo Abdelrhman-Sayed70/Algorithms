@@ -6,4 +6,4 @@
 # `Solutions`
 ![image](https://user-images.githubusercontent.com/99830416/221347663-afa835d6-a7c3-4c69-818f-262cf262e835.png)
 ![image](https://user-images.githubusercontent.com/99830416/221302727-9a4f88ff-03df-457a-b15e-eb8cd44a6b75.png)
-![image](https://user-images.githubusercontent.com/99830416/221313109-d65e4e95-4f1c-4761-8e19-28a0e6919d79.png)
+![image](https://user-images.githubusercontent.com/99830416/221354391-d2ab70dc-365e-4b4f-a244-5fc2b97adef6.png)
