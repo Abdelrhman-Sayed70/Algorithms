@@ -6,4 +6,5 @@
 - `Inefficient for large input`
 
 # Examples 
-- [Knapsack Problem](https://codeforces.com/group/gA8A93jony/contest/270592/problem/J) 
+- [Knapsack](https://codeforces.com/group/gA8A93jony/contest/270592/problem/J) 
+- Maximum subarray sum
