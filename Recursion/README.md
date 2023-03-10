@@ -21,3 +21,21 @@
       indirectrec1()
   }
   ```
+# Recursion Components 
+- #### Return type of function (void, int, ..)
+- #### Base case [Stopping condition] 
+- #### Transition [Statement]. `Each statement create branch of tree`
+- #### `Tree` each node has n branches [n number of transitions] and the leaves are base case condition
+
+# Simple Example 
+`sum numbers from 1 to n` 
+```cpp
+int rec(int n){
+  if (n == 1) { return n;}
+  return n + rec(n-1);
+}
+int main(){
+  int n; cin >> n;
+  cout << rec(3);
+}
+```
