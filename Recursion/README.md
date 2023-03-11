@@ -53,8 +53,8 @@ int main(){
 ```
 
 # How to think Recursively ? 
-### - `Build Tree` that get all possible answers 
-### - `Bulding Cubes` 
+### - `Build Tree`. Tree that get all possible answers and filter your answers
+### - `Bulding Cubes`. Build the base cube [Base case] and compose the rest of cubes to get the final formed cube. 
 
 # Where to solve 
 - ### [Assuit Sheet [Basic]](https://codeforces.com/group/MWSDmqGsZm/contest/223339)
