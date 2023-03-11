@@ -19,3 +19,8 @@ void selectionSort(vector<int>&v) {
     }
 }
 ```
+
+# Time Complexity
+- Best Case : Θ(n^2) 
+- Worst Case : Θ(n^2)
+- Average Case : Θ(n^2)
