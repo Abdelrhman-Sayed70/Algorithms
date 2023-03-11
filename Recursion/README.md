@@ -51,8 +51,10 @@ int main(){
     cout << fib(n);
 }
 ```
-![image](https://user-images.githubusercontent.com/99830416/224443471-691baea7-621f-456f-b46e-eb4725f5f7cc.png)
 
+# How to think Recursively ? 
+### - `Build Tree` that get all possible answers 
+### - `Bulding Cubes` 
 
 # Where to solve 
 - ### [Assuit Sheet [Basic]](https://codeforces.com/group/MWSDmqGsZm/contest/223339)
