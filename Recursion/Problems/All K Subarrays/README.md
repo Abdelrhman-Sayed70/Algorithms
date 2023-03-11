@@ -31,4 +31,4 @@ int main() {
 ```
 
 ## Notes
-- Here we update vector glopally before the recursive call so the vector will be seen over all function calls but we need each call has its version so after adding element in vector, recurse and reach its base case we should `pop` this element
+- Here we update vector glopally before the recursive call so the vector will be seen over all function calls but we need each call has its version so after adding element in vector, recurse and reach the base case of the current call we should `pop` this element
