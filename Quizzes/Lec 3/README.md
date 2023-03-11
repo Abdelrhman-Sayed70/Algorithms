@@ -4,7 +4,13 @@
 ![image](https://user-images.githubusercontent.com/99830416/223587980-3d0d495f-0788-49dd-9ca2-e76df1636091.png)
 ![image](https://user-images.githubusercontent.com/99830416/223588028-71ee3194-bb15-4478-b76b-479498cceab7.png)
 ![image](https://user-images.githubusercontent.com/99830416/223588098-8c89998f-1957-4526-b239-ca595f06dd3e.png)
-# `Solution`
+
+![image](https://user-images.githubusercontent.com/99830416/224512699-ed851c50-b654-4246-b463-ffbccd13cfd0.png)
+![image](https://user-images.githubusercontent.com/99830416/224512711-397176b8-d57b-482a-a44f-ac704e54677e.png)
+![image](https://user-images.githubusercontent.com/99830416/224512806-4918cd4e-ac4e-4681-b0ef-e8acf3d53171.png)
+
+
+# `Solution of first 3 Quizzes`
 ## Quiz 1
 ![1 1](https://user-images.githubusercontent.com/99830416/223590098-e370fdf0-5c32-476a-add1-46ad74d9956c.jpg)
 ![1 2](https://user-images.githubusercontent.com/99830416/223590106-0695de8c-ce0c-411e-8772-b15036df8f8e.jpg)
