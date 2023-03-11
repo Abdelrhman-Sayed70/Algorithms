@@ -52,3 +52,9 @@ int main(){
 }
 ```
 ![image](https://user-images.githubusercontent.com/99830416/224443471-691baea7-621f-456f-b46e-eb4725f5f7cc.png)
+
+
+# Where to solve 
+- ### [Assuit Sheet [Basic]](https://codeforces.com/group/MWSDmqGsZm/contest/223339)
+- ### [ProgVar.Fun](https://progvar.fun/problemsets/recursion)
+- ### Problems Folder in this directory
