@@ -18,3 +18,5 @@ int main() {
     rec("");
 }
 ```
+## Notes
+- we update string in the `function call` `rec(s + ch)` not glopally this means that each recursion call has its string version
