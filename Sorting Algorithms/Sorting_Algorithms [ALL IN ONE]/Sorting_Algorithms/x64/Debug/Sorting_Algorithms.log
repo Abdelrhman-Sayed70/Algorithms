@@ -1,0 +1,5 @@
+﻿  Sorting_Algorithms.cpp
+F:\visual_studio_projects\Sorting_Algorithms\Sorting_Algorithms\Sorting_Algorithms.cpp(20,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\visual_studio_projects\Sorting_Algorithms\Sorting_Algorithms\Sorting_Algorithms.cpp(34,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\visual_studio_projects\Sorting_Algorithms\Sorting_Algorithms\Sorting_Algorithms.cpp(84,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Sorting_Algorithms.vcxproj -> F:\visual_studio_projects\Sorting_Algorithms\x64\Debug\Sorting_Algorithms.exe
