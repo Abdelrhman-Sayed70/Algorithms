@@ -26,3 +26,4 @@ https://user-images.githubusercontent.com/99830416/227232441-31b7aa04-0cd4-4ad0-
 - Ask: Why to divide and conqure? is it worth? is it will be efficent algo to solve my problem? 
 - Ask: How to reach my answer? By `Limitation`  or `Simplification`
 - Determine The Base case and Transition
+- **Take your time to think about the problem. Divide and conquer is not easy algorithm which need a lot of practice. Good Luck 🤜**
