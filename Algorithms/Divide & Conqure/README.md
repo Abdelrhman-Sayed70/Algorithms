@@ -8,17 +8,19 @@ https://user-images.githubusercontent.com/99830416/227232441-31b7aa04-0cd4-4ad0-
 ### `It is recursve by nature [Conqure step] solve the same sub-problem using the same manner`
 ![image](https://user-images.githubusercontent.com/99830416/227218095-d36b2c70-35ab-4c01-9415-989296fe26fe.png)
 
-# Approach 
-- Limit the problem [Binary search] `No combine. the solution is a lone`
-- Simplify the problem [Fast power] `combine the answer of each sub-problem (Building cubes)`
-
 # Complexity 
 - T(n) = Time of normal code + Time of recursive code 
 - T(n) = T(Divide & Compine) + T(Conqure)
 
 # Limitaion VS Simplification 
 - **`Limitiation`** ignore sub-problem as it doesn't have solution while solving the another part as it has the solution [no combine]
-- **`Simplification`** simplify your problem to sub-problems and combine the solution of each sub one to get the base answer [combine or update]
+- **`Simplification`** simplify your problem to sub-problems and combine the solution of each sub one to get the base answer [combine or update] `Building cubes`
+
+# Approach
+#### Think of one of them  <br> 
+- Limit the problem `No combine. the solution is alone` e.g `Binary Search`
+- Simplify the problem `combine the answer of each sub-problem [Building cubes]` e.g `Fast Power`
+
 
 # How to think? 
 - Ask: Why to divide and conqure? is it worth? is it will be efficent algo to solve my problem? 
