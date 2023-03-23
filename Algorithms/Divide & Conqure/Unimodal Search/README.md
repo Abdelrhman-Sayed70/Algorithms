@@ -41,8 +41,8 @@ int main() {
     cout << solve(v, 0, n - 1);
 }
 ```
-- `Divide` Divide the problem to half sub-problem based on condition 
-- `Conqure` Solve the sub-problem in the same manner 
+- `Divide` Divide the problem into half sub-problem based on condition 
+- `Conqure` Recursively Solve the 1 sub-array in the same manner 
 - `Combine` Trivial
 
 ## Complexity 
