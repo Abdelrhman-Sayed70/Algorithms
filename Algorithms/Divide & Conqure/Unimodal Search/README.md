@@ -41,7 +41,7 @@ int main() {
     cout << solve(v, 0, n - 1);
 }
 ```
-- `Divide` Divide the problem into half sub-problem based on condition 
+- `Divide` Check middle element with its adjacent 
 - `Conqure` Recursively Solve the 1 sub-array in the same manner 
 - `Combine` Trivial
 
