@@ -17,8 +17,8 @@ https://user-images.githubusercontent.com/99830416/227232441-31b7aa04-0cd4-4ad0-
 - T(n) = T(Divide & Compine) + T(Conqure)
 
 # Limitaion VS Simplification 
-- `Limitiation` ignore sub-problem as it doesn't have solution while solving the another part as it has the solution [no combine]
-- `Simplification` simplify your problem to sub-problems and combine the solution of each sub-problems to get the base answer [combine or update]
+- **`Limitiation`** ignore sub-problem as it doesn't have solution while solving the another part as it has the solution [no combine]
+- **`Simplification`** simplify your problem to sub-problems and combine the solution of each sub one to get the base answer [combine or update]
 
 # How to think? 
 - Ask: Why to divide and conqure? is it worth? is it will be efficent algo to solve my problem? 
