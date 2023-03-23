@@ -13,7 +13,7 @@ such 𝑨[𝒎 − 𝟏] < 𝑨[𝒎] > 𝑨[𝒎 + 𝟏] In particular, 𝑨[�
 - Time complexity Θ(N) `Can we do better?`
 
 ## Divide and Conquer approach
-### `approach`
+### `Approach`
 - If we have en element and it is greater than its prev and next, so this index is the answer, else that element is greater than its next, so i am in the right part, else if the    current element is smaller than its next, so i am in the left part
 - Binary search methodology 
 - Ignoring some part and search in another one 
