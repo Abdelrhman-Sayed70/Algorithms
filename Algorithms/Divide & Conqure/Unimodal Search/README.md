@@ -1,8 +1,10 @@
 # Unimodal Search  
+## [Peak Index in a Mountain Array | LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
+## [Find Peak Element | LeetCode](https://leetcode.com/problems/find-peak-element/description/)
 ## Problem Statement 
 An array A of size n is unimodal if it consists of an increasing sequence, followed by a decreasing sequence <br>  or more precisely, if there is an index m 
 such 𝑨[𝒎 − 𝟏] < 𝑨[𝒎] > 𝑨[𝒎 + 𝟏] In particular, 𝑨[𝒎] is the maximum element, and it is the unique “locally maximum” element surrounded by smaller elements 
-(𝑨[𝒎 − 𝟏] 𝒂𝒏𝒅 𝑨[𝒎 + 𝟏]). Your task is to determine that index.
+(𝑨[𝒎 − 𝟏] 𝒂𝒏𝒅 𝑨[𝒎 + 𝟏]). Your task is to determine that element 𝑨[𝒎] or its index m.
 
 ![Picture1](https://user-images.githubusercontent.com/99830416/227283504-421ecbb7-b744-41b0-9280-47f7e0decf77.png)
 
@@ -26,7 +28,21 @@ such 𝑨[𝒎 − 𝟏] < 𝑨[𝒎] > 𝑨[𝒎 + 𝟏] In particular, 𝑨[�
 
 ## Code
 ```cpp
-
+int solve(vector<int>&v, int start, int end) {
+    if (start == end) { return start; } 
+    int mid = (start + end) / 2; 
+    if (v[mid] > v[mid + 1]) { return solve(v, start, mid); }
+    else if (v[mid] < v[mid + 1]) { return solve(v, mid + 1 , end); }
+}
+int main() {
+    int n; cin >> n;
+    vector<int>v(n); // note: the array must be unimodal
+    for (auto& it : v) { cin >> it; }
+    cout << solve(v, 0, n - 1);
+}
 ```
 
 ## Complexity 
+- T(N) = Time(Divide & Combine) + Time(Conqure) 
+- T(N) = O(1) + T(N/2)
+- Solve using master `O(Log(n))`
