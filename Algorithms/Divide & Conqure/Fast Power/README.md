@@ -39,3 +39,6 @@ int main() {
 - `Conquer` Recursively solve 1 part only with N/2.
 - `Combine` Mul. the solution of sub-problem by its self (and by base in case of odd power)
 
+## Complexity 
+- T(N) = T(N/2) + O(1)
+- Solve using Master `O(Log(n))`
