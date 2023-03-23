@@ -41,6 +41,9 @@ int main() {
     cout << solve(v, 0, n - 1);
 }
 ```
+- `Divide` Divide the problem to half sub-problem based on condition 
+- `Conqure` Solve the sub-problem in the same manner 
+- `Combine` Trivial
 
 ## Complexity 
 - T(N) = Time(Divide & Combine) + Time(Conqure) 
