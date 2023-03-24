@@ -9,7 +9,7 @@ void solve(string s, int start, int end){
     solve(s, start, mid);
     solve(s, mid + 1, end); 
     cout << s.substr(start, mid - start + 1); el;
-    cout << s.substr(mid + 1, mid - start + 1); el;
+    cout << s.substr(mid + 1, end - mid); el;
 }
 int main() {
     string s; cin >> s;
