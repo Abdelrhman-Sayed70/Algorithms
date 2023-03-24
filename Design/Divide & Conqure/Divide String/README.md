@@ -1,6 +1,16 @@
 # Divide String 
 Given string of length n (power of 2) devide string into 2 equal sub-string and print them then repeat until the size = 0 
 
+## Example 
+```
+        aabb
+        /   \
+       aa    bb
+      / \    / \
+     a   a  b   b
+
+```
+- Output `a` `a` `aa` `b` `b` `bb`
 ## Code
 ```cpp
 void solve(string s, int start, int end){
