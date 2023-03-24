@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/99830416/227232441-31b7aa04-0cd4-4ad0-
 - **`Simplification`** simplify your problem to sub-problems and combine the solution of each sub one to get the base answer [combine or update] `Building cubes`
 
 # Approach
-#### Think of one of them  <br> 
+#### Think about one of those 2 approaches  <br> 
 - Limit the problem `No combine. the solution is alone` e.g `Binary Search`
 - Simplify the problem `combine the answer of each sub-problem [Building cubes]` e.g `Fast Power`
 
