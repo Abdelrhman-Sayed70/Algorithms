@@ -23,3 +23,12 @@ void bubbleSort(vector<int>& v) {
 # Can we do better ?
 `YES`. If no swap occures at one iteration of the outer loop then we can stop the algorithm
 - Best Case : Θ(n) Already sorted array 
+
+
+# Advatages
+- O(n) in the best case (sorted array)
+- 
+# Disadvantages 
+- O(n^2) in other cases 
+- max swaps 
+- 
