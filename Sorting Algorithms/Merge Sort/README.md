@@ -1,3 +1,12 @@
+# Merge Sort
+
+# Approach 
+`Divide and Conquer` approach 
+- `Divide` Split into 2 halves
+- `Conquer` Recursively 2 sub-arrayes (2 halves) 
+- `Combine` Merge tow sorted aub-arrays
+
+# Code
 ```cpp
 void merge(vector<int>& v, int left, int right, int mid)
 {
@@ -36,5 +45,8 @@ void mergeSort(vector<int>&v, int left, int right)
     mergeSort(v, mid + 1, right);
     merge(v, left, right, mid);
 }
-
 ```
+# Complexity 
+
+- T(n) = 2T(n/2) + O(n)
+- Solve using Master `O(N.Log(N))`
