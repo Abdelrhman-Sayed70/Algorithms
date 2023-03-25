@@ -49,4 +49,13 @@ void mergeSort(vector<int>&v, int left, int right)
 # Complexity 
 
 - T(n) = 2T(n/2) + O(n)
-- Solve using Master `O(N.Log(N))`
+- Solve using Master `O(N.Log(N))` **In all cases.**
+
+# Advantages 
+- O(N.Log(n)) in all cases
+- Can be parallized
+# Disadvantages
+- Requires extra space `array of size n` cause of **Out Place** -> sort in another array. `Can we do better?` <br>
+  YES, we can use extra array of size n/2 not n. We will move the first sub-array into this array and update the original one.🤝🏻
+
+  
