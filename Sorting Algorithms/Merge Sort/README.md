@@ -2,9 +2,9 @@
 
 # Approach 
 `Divide and Conquer` approach 
-- `Divide` Split into 2 halves
-- `Conquer` Recursively 2 sub-arrayes (2 halves) 
-- `Combine` Merge tow sorted aub-arrays
+- `Divide` Split array into 2 halves
+- `Conquer` Recursively solve 2 sub-arrayes
+- `Combine` Merge tow sorted aub-arrays of each node
 
 # Code
 ```cpp
