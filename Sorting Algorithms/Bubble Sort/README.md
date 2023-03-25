@@ -30,5 +30,5 @@ void bubbleSort(vector<int>& v) {
 - 
 # Disadvantages 
 - O(n^2) in other cases 
-- max swaps 
+- Max number of swaps 
 - 
