@@ -36,4 +36,9 @@ static void InsertionSort(int[]arr)
 - Inner loop excuted for all iterations of the outer loop O(N)
 - Final Order : O(N^2)
 
+# Advantages 
+- Fastest on small inputs (les than 50)
+- Fastest on nearly sorted array nearly take `O(n)`
 
+# Disadvantages
+- O(n^2) in other cases  
