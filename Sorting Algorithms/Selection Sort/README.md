@@ -24,3 +24,9 @@ void selectionSort(vector<int>&v) {
 - Best Case : Θ(n^2) 
 - Worst Case : Θ(n^2)
 - Average Case : Θ(n^2)
+
+# Advantages 
+- Min number os swaps O(n) swaps
+
+# DisAdvantages
+- O(n^2) in all Cases
