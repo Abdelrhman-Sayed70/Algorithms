@@ -15,6 +15,24 @@
 ### `Combine` 
 - Trivial. 
 
+# Code
+### `Partition` 
+```cpp
+int partition(vector<int>&v, int start, int end) {
+    int pivot = v[start];
+    int leftptr = start + 1, rightptr = end;
+    while (true) {
+        if (leftptr > rightptr) { break; }
+        while (leftptr <= rightptr and v[leftptr] <= pivot) { leftptr++; }
+        while (leftptr <= rightptr and v[rightptr] > pivot) { rightptr--; }
+        if (leftptr <= rightptr) { swap(v[leftptr], v[rightptr]); }
+    }   
+    int pivotIdx = rightptr;
+    swap(v[start], v[rightptr]);
+    return pivotIdx;
+}
+```
+
 
 # Splitting and Complexity 
 ### `General Complexity Form` 
