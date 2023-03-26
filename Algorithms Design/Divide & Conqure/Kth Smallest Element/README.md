@@ -32,7 +32,7 @@ int partition(vector<int>&v, int start, int end) {
     return pivotIdx;
 }
 ```
-### `Find Kth smallest element` *Not tested well*
+### `Find Kth smallest element`
 ```cpp
 int partition(vector<int>&v, int start, int end) {
     int pivot = v[start];
@@ -51,7 +51,7 @@ int SelectKthSmallest(vector<int>&v, int start, int end, int k) {
     if (start == end) { return v[start]; } 
     int q = partition(v, start, end);
     int PivotIndexInCurArr = q - start + 1; 
-    if (k == PivotIndexInCurArr) { return v[k]; } 
+    if (k == PivotIndexInCurArr) { return v[q]; } 
     else if (k < PivotIndexInCurArr) { return SelectKthSmallest(v, start, q - 1, k); }
     else { return SelectKthSmallest(v, q + 1, end, k- PivotIndexInCurArr); }
 }
