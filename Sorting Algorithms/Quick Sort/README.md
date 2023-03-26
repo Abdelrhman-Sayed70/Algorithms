@@ -16,19 +16,48 @@
 # Code
 ## `Partition Logic`
 ```cpp
-int partition(vector<int>v, int start, int end) {
+int partition(vector<int>&v, int start, int end) {
     int pivot = v[start];
     int leftptr = start + 1, rightptr = end;
     while (true) {
         if (leftptr > rightptr) { break; }
-        while (v[leftptr] <= pivot) { leftptr++; }
-        while (v[rightptr] > pivot) { rightptr--; }
+        while (leftptr <= rightptr and v[leftptr] <= pivot) { leftptr++; }
+        while (leftptr <= rightptr and v[rightptr] > pivot) { rightptr--; }
         if (leftptr <= rightptr) { swap(v[leftptr], v[rightptr]); }
     }   
     int pivotIdx = rightptr;
     swap(v[start], v[rightptr]);
     return pivotIdx;
 }
+```
+## `Quick Sort` 
+```cpp
+int partition(vector<int>&v, int start, int end) {
+    int pivot = v[start];
+    int leftptr = start + 1, rightptr = end;
+    while (true) {
+        if (leftptr > rightptr) { break; }
+        while (leftptr <= rightptr and v[leftptr] <= pivot) { leftptr++; }
+        while (leftptr <= rightptr and v[rightptr] > pivot) { rightptr--; }
+        if (leftptr <= rightptr) { swap(v[leftptr], v[rightptr]); }
+    }   
+    int pivotIdx = rightptr;
+    swap(v[start], v[rightptr]);
+    return pivotIdx;
+}
+void quickSort(vector<int>&v, int start, int end) {
+    if (start >= end) { return; } 
+    int pivotindex = partition(v, start, end); 
+    quickSort(v, start, pivotindex - 1);
+    quickSort(v, pivotindex + 1, end);
+}
+int main() {  
+    int n; cin >> n; 
+    vector<int>v(n); 
+    for (auto& it : v) { cin >> it; }  
+    quickSort(v, 0, n - 1);
+    for (auto& it : v) { cout << it << " "; } 
+ }
 ```
 
 # Complexity 
