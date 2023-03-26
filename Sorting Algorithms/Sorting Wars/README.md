@@ -12,7 +12,7 @@
 
 ---
 ### 3. Sort Database that is almost ordred
-- **`Insertion Sort`** Take almot O(n)
+- **`Insertion Sort`** Take almost O(n)
 ---
 
 ### 4. Double check on sorted file 
