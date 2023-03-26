@@ -16,7 +16,9 @@
 - Trivial. 
 
 
-# Splitting 
+# Splitting and Complexity 
+### `General Complexity Form` 
+- T(N) = T(L) or T(N - L) + O(N) 
 
 ### `Best Splitting` 
 - Divide array into 2 equal sub-arrays
@@ -30,11 +32,4 @@
 
 ### `In between`  
 - T(N) = T(N/P) + O(n). Using Master `O(n)`
-# Complexity 
-### `General` 
-- T(N) = T(L) or T(N - L) + O(N) 
-
-### `Best Case` 
-- Place Pivot in K index in the first time 
-- O(n) 
 
