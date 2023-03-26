@@ -44,7 +44,8 @@
 - T(n) = T(n/10) + T(9.N/10). Solve using Recursion Tree `O(N.Log(N))`
 
 # Advantages
-
+- O(n.Log(n)) 
+- **In-Place**. Does not need extra array
 
 # Disadvantages
 
