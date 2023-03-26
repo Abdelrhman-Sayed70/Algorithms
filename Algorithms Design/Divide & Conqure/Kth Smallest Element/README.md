@@ -26,8 +26,9 @@
 - When selecting Pivot and place it in its proper position it will be in the first or last index 
 - So each time the array will be divided into n-1 elements 
 - T(N) = T(N-1) + O(N). Solve using Master `O(n^2)` 
+- *How to a void this case? Refere to Quick Sort algorithm*
 
-### In etween  
+### `In between`  
 - T(N) = T(N/P) + O(n). Using Master `O(n)`
 # Complexity 
 ### `General` 
