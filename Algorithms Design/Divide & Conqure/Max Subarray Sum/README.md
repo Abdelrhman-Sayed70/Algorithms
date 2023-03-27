@@ -1,5 +1,8 @@
-# [Max Subarray Sum | LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
-# [Maximum Sub Array | GeeksForGeeks](https://practice.geeksforgeeks.org/problems/maximum-sub-array5443/1)
+# Max Sub array sum 
+
+## [Max Subarray Sum | LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
+## [Maximum Sub Array | GeeksForGeeks](https://practice.geeksforgeeks.org/problems/maximum-sub-array5443/1)
+## [Maximum Subarray Sum | Codeforces](https://codeforces.com/problemset/gymProblem/102961/H)
 # `Approach` 
 ### `Divide`
 - Divide array into 2 subarrayes
