@@ -1,5 +1,5 @@
 # [Max Subarray Sum | LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
-
+# [Maximum Sub Array | GeeksForGeeks](https://practice.geeksforgeeks.org/problems/maximum-sub-array5443/1)
 # `Approach` 
 ### `Divide`
 - Divide array into 2 subarrayes
