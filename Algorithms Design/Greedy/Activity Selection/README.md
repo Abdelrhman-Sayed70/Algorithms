@@ -14,7 +14,7 @@
 
 
  
-## Greedy Code
+## Code
 ```cpp
 int main() {
     int n; cin >> n; 
