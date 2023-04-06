@@ -27,3 +27,8 @@ https://user-images.githubusercontent.com/99830416/227232441-31b7aa04-0cd4-4ad0-
 - Ask: How to reach my answer? By `Limitation`  or `Simplification`
 - Determine The Base case and Transition
 - **Take your time to think about the problem. Divide and conquer is not easy algorithm which need a lot of practice. Good Luck 🤜**
+
+
+
+https://user-images.githubusercontent.com/99830416/230454444-71995832-b060-40aa-97cf-fc283425c18c.mp4
+
