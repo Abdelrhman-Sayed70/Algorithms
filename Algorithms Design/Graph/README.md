@@ -2,7 +2,7 @@
 
 # Terminolgies
 
-### `General`
+## `General`
 - A graph is an abstract representation of a set of objects where some pairs of the objects are connected by links. 
 - Vertices: Interconnected objects 
 - Edges: Links that connect the vertices  
@@ -16,7 +16,7 @@
   `In degree`: number of edges that enter this vertex.
   `Out degree`: number of edges leaves this vertex
   
-### `Graph Types` 
+## `Graph Types` 
 - Connected graph: there is path from any vertex to any another vertex.
 - Disconnected graph: there is at least one vertex that can not reach at least another vertex
 - Undirected graph `Symmetrical` <br>
@@ -34,5 +34,5 @@
   
 - Sparse graph: graph with number of edges `graph size` = V 
 
-### `Complexity`
+## `Complexity`
 - In order of number of `edges` & `vertices`
