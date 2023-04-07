@@ -40,3 +40,5 @@
 ## Question
 - Consider an undirected graph that has V vertices, no parallel edges, and is connected (i.e., “in one piece”). What is the minimum and maximum number of edges that the graph could have, respectively? `V-1` `V^2`
 
+
+
