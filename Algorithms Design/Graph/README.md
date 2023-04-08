@@ -1,22 +1,34 @@
 # Graph
-![graph_fail_animated](https://user-images.githubusercontent.com/99830416/230741045-c24bc4b6-c1c9-4a69-b983-ecc99c96cd61.gif)
+## [`Graph Visualizer`](https://csacademy.com/app/graph_editor/)
 # Terminolgies
+![image](https://user-images.githubusercontent.com/99830416/230741172-cd39c380-5637-44d2-999d-ba3cd847cfac.png)
 
-## `General`
+### `General`
 - A graph is an abstract representation of a set of objects where some pairs of the objects are connected by links. 
 - Vertices: Interconnected objects 
 - Edges: Links that connect the vertices  
-- Adjacency: For each edge {u, v} the vertices u and v are said to be adjacent to one another, denoted `u ~ v`.
-- Graph Order: number of vertices |V|
-- Graph Size:  number of edges |E| <br>
-  `note` max graph size is O(|V|^2) for directed graph, O(|V|^2) also for undirected graph 
+
+### `Adjacency` 
+- For each edge {u, v} the vertices u and v are said to be adjacent to one another, denoted `u ~ v`.
+- 1 is adjacent to 3.
+- 1 is not adjacent to 2.
+
+### `Graph Order`
+- Number of vertices |V|
+
+### `Graph Size` 
+- Number of edges |E| 
+- For `Directed Graph` one vertex can have at most v edges = v-1 edges to all vertices and one to its self. So `max number of edges` = |v^2|
+- For `Undirected Graph` First vertex has |v| edges, Second vertex has |v-1|, Third vertex has |v-2| and so on. So `max number of edges` = n * (n + 1) / 2. While order will be O(|V^2|).
+- `note` max graph size is O(|V|^2) for directed graph, O(|V|^2) also for undirected graph 
   
-- Vertex degree: number of `edges` connected to this vertex <br>
-  For directed graph: <br>
+### `Vertex degree`
+- Number of `edges` connected to this vertex
+- For directed graph: <br>
   `In degree`: number of edges that enter this vertex.
   `Out degree`: number of edges leaves this vertex
   
-## `Graph Types` 
+### `Graph Types` 
 - Connected graph: there is path from any vertex to any another vertex.
 - Disconnected graph: there is at least one vertex that can not reach at least another vertex
 - Undirected graph `Symmetrical` <br>
