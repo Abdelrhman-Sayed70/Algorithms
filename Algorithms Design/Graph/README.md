@@ -28,7 +28,7 @@
 ## `Graph Size` 
 - Number of edges |E| 
 - For `Directed Graph` one vertex can have at most v edges = v-1 edges to all vertices and one to its self. So `max number of edges` = |v^2|
-- For `Undirected Graph` First vertex has |v| edges, Second vertex has |v-1|, Third vertex has |v-2| and so on. <br> So `max number of edges` = v * (v + 1) / 2. While order will be O(|V^2|).
+- For `Undirected Graph` First vertex has |v| edges, Second vertex has |v-1|, Third vertex has |v-2| and so on. <br> So `max number of edges` = (v - 1) * (v) / 2. While order will be O(|V^2|).
 - `note` max graph size is O(|V|^2) for directed graph, O(|V|^2) also for undirected graph 
   
 ## `Vertex degree`
@@ -50,6 +50,7 @@
 - In term of number of `edges` & `vertices`
 
 ## Question
-- Consider an undirected graph that has V vertices, no parallel edges, and is connected (i.e., “in one piece”). What is the minimum and maximum number of edges that the graph could have, respectively? `V-1` `V^2`
+- Consider an undirected graph that has V vertices, no parallel edges, and is connected (i.e., “in one piece”). What is the minimum and maximum number of edges that the graph could have, respectively?   
+ `V-1` `(V - 1) * V / 2`
 
 
