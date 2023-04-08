@@ -1,5 +1,5 @@
 # Graph
-
+![graph_fail_animated](https://user-images.githubusercontent.com/99830416/230741045-c24bc4b6-c1c9-4a69-b983-ecc99c96cd61.gif)
 # Terminolgies
 
 ## `General`
@@ -39,6 +39,5 @@
 
 ## Question
 - Consider an undirected graph that has V vertices, no parallel edges, and is connected (i.e., “in one piece”). What is the minimum and maximum number of edges that the graph could have, respectively? `V-1` `V^2`
-
 
 
