@@ -9,7 +9,7 @@
 >         int u, v, c;
 >         cin >> u >> v;
 >         graph[u].push_back(v);
->         graph[v].push_back(u);
+>         graph[v].push_back(u); // for undirected graph
 >     }
 >     dfs(1, graph);
 > }
@@ -18,7 +18,7 @@
 # DFS
 `Depth First Search` Traverse Depth to the bottom node
 ### [DFS Toutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
-## Traverse Graph
+## Traverse Graph [Undirected]
 ```cpp
 bool visited[1000];
 void dfs(int node, vector<vector<int>>&graph) {
@@ -30,7 +30,7 @@ void dfs(int node, vector<vector<int>>&graph) {
     }
 } 
 ```
-## Check Graph Connectivity
+## Check Graph Connectivity [Directed & Undirected]
 `Graph Contains n nodes which equal to number of vertices`
 ```cpp
 bool visited[1000];
