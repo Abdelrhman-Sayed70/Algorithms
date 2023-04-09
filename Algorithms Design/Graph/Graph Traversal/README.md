@@ -1,6 +1,7 @@
 # Graph Represenation
 
 # DFS
+- Traverse Depth to the bottom node
 ```cpp
 bool visited[1000];
 void dfs(int node, vector<vector<int>>&graph) {
@@ -13,7 +14,7 @@ void dfs(int node, vector<vector<int>>&graph) {
 }
 int main() {
     int vertices, edges; cin >> vertices >> edges;
-    vector<vector<int>>graph(vertices);
+    vector<vector<int>>graph(vertices + 1);
     for (int i = 0; i < edges; i++) {
         int u, v, c;
         cin >> u >> v;
@@ -22,14 +23,36 @@ int main() {
     }
     dfs(1, graph);
     // graph 
-    /*
-     6 4 
-     1 2
-     1 5
-     2 3
-     2 4 
-    */
 }
 ```
 
 # BFS
+- Traverse Level by level
+```cpp
+bool visited[1000];
+void bfs(int node, vector<vector<int>>& graph) {
+    queue<int>nextToVisit;
+    nextToVisit.push(node);
+    while (nextToVisit.size()) {
+        int current = nextToVisit.front();
+        cout << current << "\n";
+        visited[current] = 1; 
+        nextToVisit.pop();
+        for (auto child : graph[current]) {
+            if (!visited[child])
+                nextToVisit.push(child), visited[child] = 1;
+        }
+    }
+}
+void do_it() {
+    int vertices, edges; cin >> vertices >> edges;
+    vector<vector<int>>graph(vertices + 1);
+    for (int i = 0; i < edges; i++) {
+        int u, v, c;
+        cin >> u >> v;
+        graph[u].push_back(v);
+        graph[v].push_back(u);
+    }
+    bfs(1, graph);
+}
+```
