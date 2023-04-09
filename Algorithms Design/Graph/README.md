@@ -1,5 +1,11 @@
 # Graph
+
+## [`Indroduction To Graph Theory | CS Academy`](https://csacademy.com/lesson/introduction_to_graphs/)
+
 ## [`Graph Visualizer`](https://csacademy.com/app/graph_editor/)
+
+
+
 # Terminolgies
 ![image](https://user-images.githubusercontent.com/99830416/230741172-cd39c380-5637-44d2-999d-ba3cd847cfac.png)
 
@@ -53,4 +59,9 @@
 - Consider an undirected graph that has V vertices, no parallel edges, and is connected (i.e., “in one piece”). What is the minimum and maximum number of edges that the graph could have, respectively?   
  `V-1` `(V - 1) * V / 2`
 
-
+# Common Problems
+- ### `Connectivity`
+  Can i reach form node A to B ?
+- ### `Generate Connected Components` 
+  Components is nodes that generate connected graph
+- ### `Shotest Path`
