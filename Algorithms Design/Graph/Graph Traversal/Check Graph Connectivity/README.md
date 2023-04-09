@@ -19,7 +19,7 @@ int main() {
         cin >> u >> v;
         graph[u].push_back(v);
     }
-    int nodes = dfs(any point, graph);
+    int nodes = dfs(anyGraphNode, graph);
     if (nodes == vertices) { cout << "Connected Graph"; }
 }
 ```
