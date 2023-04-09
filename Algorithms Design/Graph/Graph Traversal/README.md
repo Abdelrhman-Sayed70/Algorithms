@@ -16,34 +16,34 @@
 > ```
 
 # DFS
-> `Depth First Search` Traverse Depth to the bottom node
-> 
-> ## Traverse Graph
-> ```cpp
-> bool visited[1000];
-> void dfs(int node, vector<vector<int>>&graph) {
->     cout << node << "\n";
->     visited[node] = 1;
->     for (auto child : graph[node]) {
->         if (!visited[child])
->             dfs(child, graph);
->     }
-> } 
-> ```
-> ## Check Graph Connectivity
-> `Graph Contains n nodes which equal to number of vertices`
-> ```cpp
-> bool visited[1000];
-> int dfs(int node, vector<vector<int>>&graph) {
->     int visCount = 1;
->     visited[node] = 1;
->     for (auto child : graph[node]) {
->         if (!visited[child])
->             visCount += dfs(child, graph);
->     }
->     return visCount;
-> }
-> ```
+`Depth First Search` Traverse Depth to the bottom node
+### [DFS Toutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
+## Traverse Graph
+```cpp
+bool visited[1000];
+void dfs(int node, vector<vector<int>>&graph) {
+    cout << node << "\n";
+    visited[node] = 1;
+    for (auto child : graph[node]) {
+        if (!visited[child])
+            dfs(child, graph);
+    }
+} 
+```
+## Check Graph Connectivity
+`Graph Contains n nodes which equal to number of vertices`
+```cpp
+bool visited[1000];
+int dfs(int node, vector<vector<int>>&graph) {
+    int visCount = 1;
+    visited[node] = 1;
+    for (auto child : graph[node]) {
+        if (!visited[child])
+            visCount += dfs(child, graph);
+    }
+    return visCount;
+}
+```
 
 # BFS
 > `Breadth First Search` Traverse level by level
