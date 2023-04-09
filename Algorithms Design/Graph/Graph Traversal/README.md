@@ -54,7 +54,20 @@ int dfs(int node, vector<vector<int>>&graph) {
 ```
 
 ## Edge Classification
+
+#### `Tree Edge` 
+- Edges that discover new nodes.
+- Straight line 
+
+#### `Cross Edge`
+- Edge that connect 2 nodes from different subtrees
+- Dashed line from the another subtree. --->
     
+#### `Back Edge`
+- Edge between child and it's base father
+- Red line
+
+#### `Forward Edge`
     
 # BFS
 > `Breadth First Search` Traverse level by level
