@@ -54,6 +54,7 @@ int dfs(int node, vector<vector<int>>&graph) {
 ```
 
 ## Edge Classification
+![image](https://user-images.githubusercontent.com/99830416/230777752-1e69d495-f805-4091-90b6-c819a742ddf6.png)
 
 #### `Tree Edge` 
 - Edges that discover new nodes.
@@ -68,6 +69,8 @@ int dfs(int node, vector<vector<int>>&graph) {
 - Red line
 
 #### `Forward Edge`
+- 
+- Purple Line
     
 # BFS
 > `Breadth First Search` Traverse level by level
