@@ -18,7 +18,7 @@
 # DFS
 `Depth First Search` Traverse Depth to the bottom node
 ### [DFS Toutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
-## Traverse Graph [Undirected]
+## Graph Traverse [Undirected]
 ```cpp
 bool visited[1000];
 void dfs(int node, vector<vector<int>>&graph) {
@@ -30,6 +30,14 @@ void dfs(int node, vector<vector<int>>&graph) {
     }
 } 
 ```
+## Graph Traverse [Directed] 
+- First pick a node and call the DFS algorithm with that starting point.
+- While there still are some unvisited nodes, pick one of them and call the DFS algorithm again using that particular node as the starting point.
+```cpp
+    
+    
+```
+    
 ## Check Graph Connectivity [Directed & Undirected]
 `Graph Contains n nodes which equal to number of vertices`
 ```cpp
@@ -45,6 +53,9 @@ int dfs(int node, vector<vector<int>>&graph) {
 }
 ```
 
+## Edge Classification
+    
+    
 # BFS
 > `Breadth First Search` Traverse level by level
 > ## Traverse
