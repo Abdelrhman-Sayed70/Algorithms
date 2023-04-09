@@ -1,5 +1,5 @@
 # Check Connection Between 2 Nodes
-
+Check if there is a path between 2 nodes for directed & undirected graph
 # Code
 ```cpp
 bool checkConecction(int node, int target, vector<vector<int>>& graph) {
