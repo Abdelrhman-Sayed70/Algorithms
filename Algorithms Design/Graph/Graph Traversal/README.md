@@ -61,39 +61,27 @@
 > }
 > ```
 >     
-> ## Check Graph Connectivity [Directed & Undirected]
-> `Graph Contains n nodes which equal to number of vertices`
-> ```cpp
-> bool visited[1000];
-> int dfs(int node, vector<vector<int>>&graph) {
->     int visCount = 1;
->     visited[node] = 1;
->     for (auto child : graph[node]) {
->         if (!visited[child])
->             visCount += dfs(child, graph);
->     }
->     return visCount;
-> }
-> ```
-> 
-> ## Edge Classification
-> ![image](https://user-images.githubusercontent.com/99830416/230777752-1e69d495-f805-4091-90b6-c819a742ddf6.png)
-> 
-> #### `Tree Edge` 
-> - Edges that discover new nodes.
-> - Straight line 
-> 
-> #### `Cross Edge`
-> - Edge that connect 2 nodes from different subtrees
-> - Dashed line from the another subtree. --->
->     
-> #### `Back Edge`
-> - Edge between child and it's base father
-> - Red line
-> 
-> #### `Forward Edge`
-> - 
-> - Purple Line
     
-
+    
+# BFS
+`Breadth First Search` Traverse level by level
+### [BFS Toutorial | CS Academy](https://csacademy.com/lesson/breadth_first_search)
+## Traverse
+```cpp
+bool visited[1000];
+void bfs(int node, vector<vector<int>>& graph) {
+    queue<int>nextToVisit;
+    nextToVisit.push(node);
+    while (nextToVisit.size()) {
+        int current = nextToVisit.front();
+        cout << current << "\n";
+        visited[current] = 1; 
+        nextToVisit.pop();
+        for (auto child : graph[current]) {
+            if (!visited[child])
+                nextToVisit.push(child), visited[child] = 1;
+        }
+    }
+}
+```
  
