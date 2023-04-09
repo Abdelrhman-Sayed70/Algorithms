@@ -1,7 +1,10 @@
 # Graph
+
+## [`Indroduction To Graph Theory | CS Academy`](https://csacademy.com/lesson/introduction_to_graphs/)
+
 ## [`Graph Visualizer`](https://csacademy.com/app/graph_editor/)
 
-## [`Indroduction To Graph Theory`](https://csacademy.com/lesson/introduction_to_graphs/)
+
 
 # Terminolgies
 ![image](https://user-images.githubusercontent.com/99830416/230741172-cd39c380-5637-44d2-999d-ba3cd847cfac.png)
