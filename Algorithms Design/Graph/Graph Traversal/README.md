@@ -46,7 +46,8 @@ int dfs(int node, vector<vector<int>>&graph) {
 ```
 
 # BFS
-- Traverse Level by level
+`Breadth First Search` Traverse level by level
+## Traverse
 ```cpp
 bool visited[1000];
 void bfs(int node, vector<vector<int>>& graph) {
@@ -62,16 +63,5 @@ void bfs(int node, vector<vector<int>>& graph) {
                 nextToVisit.push(child), visited[child] = 1;
         }
     }
-}
-void do_it() {
-    int vertices, edges; cin >> vertices >> edges;
-    vector<vector<int>>graph(vertices + 1);
-    for (int i = 0; i < edges; i++) {
-        int u, v, c;
-        cin >> u >> v;
-        graph[u].push_back(v);
-        graph[v].push_back(u);
-    }
-    bfs(1, graph);
 }
 ```
