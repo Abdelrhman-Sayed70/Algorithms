@@ -11,7 +11,7 @@ void dfs(int node, vector<vector<int>>&graph) {
         if (!visited[child])
             dfs(child, graph);
     }
-}
+} 
 int main() {
     int vertices, edges; cin >> vertices >> edges;
     vector<vector<int>>graph(vertices + 1);
