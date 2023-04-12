@@ -1,4 +1,4 @@
-<<<<<<< HEAD:Algorithms Design/Graph/Problems/Connected Component Number/README.md
+
 # Connected Component Number
 # Toutorial 
 - [Number of Provinces | LeetCode](https://leetcode.com/problems/number-of-provinces/)
