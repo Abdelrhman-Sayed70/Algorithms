@@ -1,4 +1,4 @@
-    # Connected Component Number
+# Connected Component Number
 # Toutorial 
 - [Number of Provinces | LeetCode](https://leetcode.com/problems/number-of-provinces/)
 - [Number of Provinces | GeeksForGeeks](https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article)
