@@ -1,5 +1,7 @@
 # Shortest Path From Entry Node To All Nodes
-- First task at [Shortest paths | CS Academy](https://csacademy.com/lesson/breadth_first_search)
+## Problem Description
+Given entry node print the shortest path [edges] visited for each node in the graph. If there is no connection between the entry node and any other one print -1.<br>
+Find find the problem here. First task at [Shortest paths | CS Academy](https://csacademy.com/lesson/breadth_first_search)
 
 
 # Code
