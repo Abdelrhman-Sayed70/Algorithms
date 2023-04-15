@@ -1,5 +1,5 @@
 # Shortest Paths
-## Shortest Path [Min Traversed Nodes]
+## Shortest Path [Min Traversed Nodes / Edges]
 **It can be implemented using `BFS` as it traverse graph level by level. The counter will be incremented when traverse all level nodes**
 ```cpp
 map<int,bool>visited;
