@@ -24,8 +24,9 @@ int shortestPath(int node1, int node2, vector<vector<int>>& graph) {
             }
         }
     }
+    return -1;
 }
-int main() {
+void do_it() {
     int vertices, edges; cin >> vertices >> edges;
     vector<vector<int>>graph(vertices + 1);
     for (int i = 0; i < edges; i++) {
@@ -39,6 +40,7 @@ int main() {
         cout << "enter 2 nodes: "; cin >> a >> b;
         int path = shortestPath(a, b, graph);
         cout << "level of node2 from node1 is: " << path << "\n";
+        if (path == -1) { cout << "\n"; continue; }
         // min number of traversed nodes to reach b from a (excluding node1 and node2)
         cout << "shortest path (min number of nodes): " << path - 2 << "\n";
         // min number of traversed edges to reach b from a
