@@ -39,7 +39,10 @@ int main() {
         cout << "enter 2 nodes: "; cin >> a >> b;
         int path = shortestPath(a, b, graph);
         cout << "level of node2 from node1 is: " << path << "\n";
-        cout << "shortest path (number of nodes): " << path - 2 << "\n\n";
+        // min number of traversed nodes to reach b from a (excluding node1 and node2)
+        cout << "shortest path (min number of nodes): " << path - 2 << "\n";
+        // min number of traversed edges to reach b from a
+        cout << "shortest path (min number of edges): " << path - 1 << "\n\n";
         visited.clear();
     }
 }
