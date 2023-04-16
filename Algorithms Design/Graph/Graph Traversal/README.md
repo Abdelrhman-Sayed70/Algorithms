@@ -1,6 +1,6 @@
 # Graph Represenation
 
-# Enter Graph 
+# `Enter Graph` 
 ```cpp
 int main() {
     int vertices, edges; cin >> vertices >> edges;
@@ -15,7 +15,7 @@ int main() {
 }
 ```
 ---
-# DFS
+# `DFS`
 `Depth First Search` Traverse Depth to the bottom node
 ### [DFS  Tutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
 ## Traverse
@@ -30,9 +30,15 @@ void dfs(int node, vector<vector<int>>&graph) {
     }
 } 
 ``` 
+## DFS be like 🤣
+https://user-images.githubusercontent.com/99830416/232340446-2ddc9b90-d2ad-45ca-a42a-c6ec793a43ab.mp4
+
+
+
+
 ---
     
-# BFS
+# `BFS`
 `Breadth First Search` Traverse level by level
 ### [BFS Toutorial | CS Academy](https://csacademy.com/lesson/breadth_first_search)
 ## Traverse
@@ -55,7 +61,7 @@ void bfs(int node, vector<vector<int>>& graph) {
 ```
 ---
 
-# ☢ Detemine Path & Level Of Each Node
+# ☢ `Detemine Path & Level Of Each Node`
 ```cpp
 bool visited[1000];
 void bfs(int node, vector<vector<int>>& graph) {
@@ -91,7 +97,7 @@ void bfs(int node, vector<vector<int>>& graph) {
     }
 }
 ```
-# Directed Graph | Unconnected Traverse
+# `Directed Graph | Unconnected Traverse`
 ![image](https://user-images.githubusercontent.com/99830416/230778759-808206dc-4e44-4616-849b-ab6615cc76d3.png)
     
 Here if we traverse this graph from node 0 we will not reach node 1 so how to traverse directed graph and avoid this problem? 
@@ -123,9 +129,9 @@ int main() {
 ```
 ---
 
-# Graph Traversal Complexity
+# `Graph Traversal Complexity`
 **`O(|V| + |E|)`** <br>
 Traverse all vertices and edges
 
-# Difference between Graph & Tree 
+# `Difference between Graph & Tree` 
 - **`Tree`** has no cycles
