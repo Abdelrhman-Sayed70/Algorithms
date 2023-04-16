@@ -55,7 +55,7 @@ void bfs(int node, vector<vector<int>>& graph) {
 ```
 ---
 
-# Detemine Path & Level Of Each Node
+# ☢ Detemine Path & Level Of Each Node
 ```cpp
 bool visited[1000];
 void bfs(int node, vector<vector<int>>& graph) {
