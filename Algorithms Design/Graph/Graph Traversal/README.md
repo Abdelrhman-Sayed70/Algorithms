@@ -18,7 +18,7 @@ int main() {
 # DFS
 `Depth First Search` Traverse Depth to the bottom node
 ### [DFS Toutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
-## DFS 
+## Traverse
 ```cpp
 bool visited[1000];
 void dfs(int node, vector<vector<int>>&graph) {
