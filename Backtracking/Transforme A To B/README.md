@@ -5,6 +5,9 @@
 - We need to make a equal to b.
 - We need to keep track of the path so we will use backtracking
 
+## Graph Approach
+- This problem has also a graph approach can be found at `Algorithms Design/Graph/Problems`
+
 ## Backtracking Solution
 ```cpp
 vector<ll>path, bestPath;
