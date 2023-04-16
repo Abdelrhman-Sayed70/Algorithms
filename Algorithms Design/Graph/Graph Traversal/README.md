@@ -54,6 +54,43 @@ void bfs(int node, vector<vector<int>>& graph) {
 }
 ```
 ---
+
+# Detemine Path & Level Of Each Node
+```cpp
+bool visited[1000];
+void bfs(int node, vector<vector<int>>& graph) {
+    queue<int>nextToVisit;
+    map<int, int>lvl, parent;
+    nextToVisit.push(node);
+    parent[node] = -1;
+    lvl[node] = 0;
+    while (nextToVisit.size()) {
+        int current = nextToVisit.front();
+        cout << current << "\n";
+        visited[current] = 1;
+        nextToVisit.pop();
+        for (auto child : graph[current]) {
+            if (!visited[child]) {
+                nextToVisit.push(child), visited[child] = 1;
+                lvl[child] = lvl[current] + 1;
+                parent[child] = current;
+            }
+        }
+    }
+    while (true) {
+        cout << "enter child you want to get its parents: ";
+        int a; cin >> a;
+        cout << "parents of " << a << ":\n";
+        int node = a; 
+        vector<int>path;
+        while (node != -1) {
+            cout << node << "\n";
+            path.push_back(node);
+            node = parent[node];
+        }
+    }
+}
+```
 # Directed Graph | Unconnected Traverse
 ![image](https://user-images.githubusercontent.com/99830416/230778759-808206dc-4e44-4616-849b-ab6615cc76d3.png)
     
