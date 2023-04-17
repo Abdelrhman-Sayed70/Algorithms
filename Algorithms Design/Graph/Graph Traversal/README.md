@@ -97,7 +97,7 @@ void bfs(int node, vector<vector<int>>& graph) {
     }
 }
 ```
-# `Directed Graph | Unconnected Traverse`
+# `(Directed | Unconnected) Graph Traverse`
 ![image](https://user-images.githubusercontent.com/99830416/230778759-808206dc-4e44-4616-849b-ab6615cc76d3.png)
     
 Here if we traverse this graph from node 0 we will not reach node 1 so how to traverse directed graph and avoid this problem? 
