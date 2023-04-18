@@ -63,10 +63,19 @@ void bfs(int node, vector<vector<int>>& graph) {
 
 # ☢ `Detemine Path & Level Of Each Node`
 ```cpp
-bool visited[1000];
+ bool visited[1000];
+unordered_map<int, int>lvl, parent;
+vector<int> getPath(int node) {
+    vector<int>path;
+    while (node != -1) {
+        path.push_back(node);
+        node = parent[node];
+    }
+    reverse(all(path));
+    return path;
+}
 void bfs(int node, vector<vector<int>>& graph) {
     queue<int>nextToVisit;
-    map<int, int>lvl, parent;
     nextToVisit.push(node);
     parent[node] = -1;
     lvl[node] = 0;
@@ -83,17 +92,28 @@ void bfs(int node, vector<vector<int>>& graph) {
             }
         }
     }
+}
+void doIt() {
+    int vertices, edges; 
+    cin >> vertices >> edges;
+    vector<vector<int>>graph(vertices + 1);
+    for (int i = 0; i < edges; i++) {
+        int u, v, c;
+        cin >> u >> v;
+        graph[u].push_back(v);
+        graph[v].push_back(u);
+    }
+    // note vertices are 1 based
+    for (int i = 1; i <= vertices; i++) {
+        if (!visited[i]) { bfs(i, graph); }
+    }
     while (true) {
-        cout << "enter child you want to get its parents: ";
-        int a; cin >> a;
-        cout << "parents of " << a << ":\n";
-        int node = a; 
-        vector<int>path;
-        while (node != -1) {
-            cout << node << "\n";
-            path.push_back(node);
-            node = parent[node];
-        }
+        cout << "Enter node you want to get its path: ";
+        int node; cin >> node;
+        cout << "Path: ";
+        vector<int>path = getPath(node);
+        for (auto it : path) { cout << it << " "; }
+        cout << "\n";
     }
 }
 ```
