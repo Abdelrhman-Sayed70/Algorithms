@@ -1,6 +1,6 @@
 # Graph Represenation & Traversal
 
-# `Enter Graph` 
+# Enter Graph
 ```cpp
 int main() {
     int vertices, edges; cin >> vertices >> edges;
