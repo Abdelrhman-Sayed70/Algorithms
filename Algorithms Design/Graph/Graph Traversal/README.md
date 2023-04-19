@@ -11,14 +11,12 @@ int main() {
         graph[u].push_back(v);
         graph[v].push_back(u); // for undirected graph
     }
-    dfs(1, graph);
 }
 ```
 
 # Graph Traversal Complexity
 **`O(|V| + |E|)`** <br>
 **Traverse all vertices and edges**
-
-# Graph & Tree
-### Tree 
+  
+# Tree 
 - Has no cycles
