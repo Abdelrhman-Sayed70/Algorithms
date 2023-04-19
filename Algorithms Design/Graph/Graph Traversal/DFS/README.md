@@ -1,6 +1,6 @@
 # DFS 
 **`Depth First Search` Traverse Depth to the bottom node**
-# Toutorials
+# Tutorials
 - [DFS  Tutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
 ## Traverse
 ```cpp
