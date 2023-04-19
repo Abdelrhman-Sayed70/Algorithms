@@ -1,5 +1,5 @@
 # DFS 
-`Depth First Search` Traverse Depth to the bottom node
+**`Depth First Search` Traverse Depth to the bottom node**
 # Toutorials
 - [DFS  Tutorial | CS Academy](https://csacademy.com/lesson/depth_first_search)
 ## Traverse
