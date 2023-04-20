@@ -10,7 +10,7 @@
 
 - Edge connects parent `top` with any of its already before visited child `down`
 
-- Go to **Black** edge`discovered node and fully explored ` & discoveryTime(source) < discoveryTime(destination)
+- Go to **Black** node `discovered node and fully explored ` & discoveryTime(source) < discoveryTime(destination)
 
 ## Cross Edge
 
