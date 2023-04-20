@@ -60,8 +60,8 @@
  `V-1` `(V - 1) * V / 2`
 
 # `Common Problems`
-- ### `Connectivity`
-  Can i reach form node A to B ?
-- ### `Generate Connected Components` 
-  Components is nodes that generate connected graph
-- ### `Shotest Path`
+- **Connectivity**: Can i reach form node A to B ?
+  
+- **Generate Connected Components**: Components is nodes that generate connected graph
+  
+- **Shotest Path**
