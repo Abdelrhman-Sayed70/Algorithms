@@ -15,7 +15,7 @@
 
 ## Forward Edge
 
-- On tree, the edge goes from `top  [parent]` to `bottom [black child of the top]` 
+- On tree, the edge goes from `top [parent]` to `bottom [black child of the top]` 
 - Go to **Black** node & discoveryTime(source) < discoveryTime(destination)
 
 ## Cross Edge
