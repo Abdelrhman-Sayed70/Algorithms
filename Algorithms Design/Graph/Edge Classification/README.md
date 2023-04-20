@@ -1,15 +1,18 @@
-## Edge Classification
-![image](https://user-images.githubusercontent.com/99830416/230777752-1e69d495-f805-4091-90b6-c819a742ddf6.png)
-#### `Tree Edge` 
-- Edges that discover new nodes.
-- Straight line 
-#### `Cross Edge`
-- Edge that connect 2 nodes from different subtrees
-- Dashed line from the another subtree. --->
-    
-#### `Back Edge`
-- Edge between child and it's base father
-- Red line
-#### `Forward Edge`
-- 
-- Purple Line
+# Edge Classifications
+
+## Backward Edge
+
+- Edge makes cycle.
+- Edge connects child with any of its parents.
+- Go to **Gray** node. `discoverd node but not fully explored`
+
+## Forward Edge
+
+- Edge connects parent `top` with any of its already before visited child `down`
+
+- Go to **Black** edge`discovered node and fully explored ` & discoveryTime(source) < discoveryTime(destination)
+
+## Cross Edge
+
+- Edge connects 2 nodes in different trees, or 2 different branches in the same tree
+- Go to **Black** node `discovered node and fully explored ` & discoveryTime(source) > discoveryTime(destination)
