@@ -1,4 +1,4 @@
-# Edge Classifications
+# Edge Classifications⛓️
 
 ## Backward Edge
 
