@@ -1,8 +1,8 @@
 # Graph
 
-### [`Indroduction To Graph Theory | CS Academy`](https://csacademy.com/lesson/introduction_to_graphs/)
+- ### [`Indroduction To Graph Theory | CS Academy`](https://csacademy.com/lesson/introduction_to_graphs/)
 
-### [`Graph Visualizer`](https://csacademy.com/app/graph_editor/)
+- ###  [`Graph Visualizer`](https://csacademy.com/app/graph_editor/)
 
 
 
