@@ -18,7 +18,7 @@
 - On tree, the edge goes from `top [parent]` to `bottom [black child of the top]` 
 - Go to **Black** node & discoveryTime(source) < discoveryTime(destination)
 
-## Cross Edge
+## Cross Edge [In Directed Graphs Only]
 
 - On tree the edge connects 2 nodes in different trees, or 2 different branches in the same tree
 - Go to **Black** node & discoveryTime(source) > discoveryTime(destination)
