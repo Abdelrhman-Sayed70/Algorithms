@@ -1,4 +1,4 @@
-# Fionacci
+# Fibonacci
 
 ## Recursive Solution
 
