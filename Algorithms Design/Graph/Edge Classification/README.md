@@ -22,3 +22,57 @@
 
 - On tree the edge connects 2 nodes in different trees, or 2 different branches in the same tree
 - Go to **Black** node & discoveryTime(source) > discoveryTime(destination)
+
+# Edge Classification for Undirected Graph
+```cpp
+int backword, forwardd, cross, Time;
+vector<char> color(100, 'w');
+vector<int> parent(100, -1), discovery(100), delivery(100);
+//map<int, char>color;
+//map<int, int>parent, discovery, delivery;
+void dfs(int node, vector<vector<int>>& graph) {
+    Time++;
+    color[node] = 'g';
+    discovery[node] = Time;
+    cout << "node: " << node << ", parent: " << parent[node] << " d: " << discovery[node] << "\n";
+    for (auto child : graph[node]) {
+        // node is the source and child is the destination 
+        if (color[child] == 'w') {
+            cout << "tree edge: " << node << " -> " << child << "\n";
+            parent[child] = node;
+            dfs(child, graph);
+        }
+        else if (color[child] == 'g' and child != parent[node]) {
+            cout << "backword edge: " << node << " -> " << child << "\n";
+            backword++;
+        }
+        else if (color[child] == 'b' and discovery[node] < discovery[child]) {
+            cout << "forward edge: " << node << " -> " << child << "\n";
+            forwardd++;
+        }
+    }
+    color[node] = 'b';
+    delivery[node] = Time + 1;
+}
+int main() {
+    backword = forwardd = cross = Time = 0;
+    int vertices, edges; cin >> vertices >> edges;
+    vector<vector<int>>graph(vertices);
+    for (int i = 0; i < edges; i++) {
+        int u, v, c;
+        cin >> u >> v;
+        graph[u].push_back(v);
+        graph[v].push_back(u);
+    }
+    for (int i = 0; i < vertices; i++) {
+        if (color[i] == 'w') {
+            dfs(i, graph);
+        }
+    }
+    cout << "\nNumber of backward edges: " << backword << "\n";
+    cout << "Number of forward edges: " << forwardd << "\n";
+}
+```
+**Notes**
+- There are no cross edges in undirected graph.
+- Alwayes number of backword edges equal to number of forward edges.
