@@ -41,7 +41,7 @@ void generatePaths(vector<vector<int>>v, int i, int j) {
         path.pop_back();
     }
 }
-void doIt() {
+int main() {
     cin >> n >> m;
     vector<vector<int>>v(n, vector<int>(m));
     for (int i = 0; i < n; i++) {
