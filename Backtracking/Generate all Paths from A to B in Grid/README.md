@@ -18,25 +18,20 @@ void printPath(vector<int>v) {
 }
 void generatePaths(vector<vector<int>>v, int i, int j) {
     path.push_back(v[i][j]);
-
     if (i == n - 1 and j == m - 1) {
         //printPath(path);
         ans.insert(path);
         return;
     }
-
     // go right (increase j)
     if (j + 1 < m) {
         generatePaths(v, i, j + 1);
-        
         // path ends & backtrack
         path.pop_back();
     }
-
     // go down (increase i)
     if (i + 1 < n) {
         generatePaths(v, i + 1, j);
-
         // path ends & backtrack
         path.pop_back();
     }
