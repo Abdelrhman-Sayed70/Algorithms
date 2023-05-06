@@ -14,7 +14,6 @@ int main()) {
 ```
 
 - **We have overlapped sub-problems**
-- **We define out extra storage `dp` that will save answer of each sub-problem**
 - **Time Complexity → O(2^n)**
 
 ## dp solution [Top-Down | Memoization]
@@ -38,9 +37,8 @@ void doIt() {
 }
 ```
 
-- **Enhancement: We save the solution of each sub-problem so when I need it, I will call the answer directly, not start calculating it from beginning.**
+- **Enhancement: We define extra storage** `dp` **that will save answer of each sub-problem. Check if the sub-problem is solved or not. If not → solve it & store the answer. Else if it is solved → retrieve the answer.**
 - **Time Complexity → O(n)**
-
 
 ## dp solution [Bottom-Up | Tabulation]
 ```cpp
