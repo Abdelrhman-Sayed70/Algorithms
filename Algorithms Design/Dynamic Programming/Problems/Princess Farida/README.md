@@ -24,5 +24,24 @@ int main {
 
 # dp Solution 
 ```cpp
+int n;
+ll solve(int i, vector<int>&v, vector<ll>&dp) {
+    if (i >= n) { return 0; }
 
+    if (dp[i] != -1) { return dp[i]; }
+
+    ll a = solve(i + 1, v, dp); // leave the current monester 
+    ll b = v[i] + solve(i + 2, v, dp); // take the current monester and jump 2 steps 
+
+    dp[i] = max(a, b);
+    return dp[i];
+}
+int main() {
+    cin >> n; 
+    vector<ll>dp(1004, -1);
+    vector<int>v(n); 
+    for (auto& it : v) { cin >> it; } 
+    ll ans = solve(0, v, dp);
+    cout << ans << "\n"; 
+}
 ```
