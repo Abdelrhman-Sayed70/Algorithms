@@ -48,6 +48,18 @@ int main() {
 
 ## dp Iterative Solution
 ```cpp
-
-
+int main() {
+    cin >> n; 
+    vector<int>v(n); 
+    for (auto& it : v) { cin >> it; } 
+    vector<ll>dp(n + 2);
+    dp[n] = 0;
+    for (int i = n - 1; ~i; i--) {
+        ll a = dp[i + 1];
+        ll b = (i + 2 <= n ? v[i] + dp[i + 2] : v[i]);
+        dp[i] = max(a, b);
+    }
+    ll ans = dp[0];
+    cout << ans << "\n"; 
+}
 ```
