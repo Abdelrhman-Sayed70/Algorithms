@@ -49,6 +49,7 @@ int main() {
 ## dp Iterative Solution
 ```cpp
 int main() {
+    int n;
     cin >> n; 
     vector<int>v(n); 
     for (auto& it : v) { cin >> it; } 
