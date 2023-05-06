@@ -42,6 +42,11 @@ void doIt() {
 
 ## dp solution [Bottom-Up | Tabulation]
 ```cpp
-
-
+int main() {
+    vector<int>fib(100);
+    fib[0] = fib[1] = 1; 
+    for (int i = 2; i < 100; i++) { fib[i] = fib[i - 1] + fib[i - 2]; }   
+    int n; cin >> n;
+    cout << fib[n] << "\n";
+}
 ```
