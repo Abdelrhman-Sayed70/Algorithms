@@ -3,9 +3,9 @@
 
 ## Approach
 - **We have 2 moves only** `i + 1` **and** `i + 2`.
-- **Base case → i reach** `n - 1` l**ast tower. So the cost will be 0**
-- **Statement → move to i + 1 and i + 2. But path i + 2 should be exist before moving so check first that the tower is in map. <br>
-So ans2 will be initialized to be impossible number [Invalid path] so if i cannot go to i+2 this means that i will choose the path i+1 (min).**
+- **Base case → i reach `n - 1` last tower. So the cost will be 0**
+- **Statement → move to i + 1 and i + 2.**
+- **invalid path here returns big number as it is minimization problem. in case of maximization problem, the invalid path value will be -1**
 
 ## Solution
 ```cpp
