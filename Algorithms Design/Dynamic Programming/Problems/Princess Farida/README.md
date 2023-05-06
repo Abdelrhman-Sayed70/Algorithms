@@ -1,7 +1,7 @@
 # Princess Farida
 ### [Princess Farida | SPOJ](https://www.spoj.com/problems/FARIDA/)
 
-# Recursive solution 
+## Recursive solution 
 ```cpp
 int n;
 int solve(int i, vector<int>&v) {
@@ -22,7 +22,7 @@ int main {
 }
 ```
 
-# dp Solution 
+## dp Recursive Solution 
 ```cpp
 int n;
 ll solve(int i, vector<int>&v, vector<ll>&dp) {
@@ -44,4 +44,10 @@ int main() {
     ll ans = solve(0, v, dp);
     cout << ans << "\n"; 
 }
+```
+
+## dp Iterative Solution
+```cpp
+
+
 ```
