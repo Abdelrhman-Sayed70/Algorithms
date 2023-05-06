@@ -37,7 +37,7 @@ void doIt() {
 }
 ```
 
-- **Enhancement: We define extra storage** `dp` **that will save answer of each sub-problem. Check if the sub-problem is solved or not. If not → solve it & store the answer. Else if it is solved → retrieve the answer.**
+- **Enhancement: We define extra storage** `dp` **that will save answer of each sub-problem. <br> Check if the sub-problem is solved or not.  If not → solve it & store the answer. Else if it is solved → retrieve the answer.**
 - **Time Complexity → O(n)**
 
 ## dp solution [Bottom-Up | Tabulation]
