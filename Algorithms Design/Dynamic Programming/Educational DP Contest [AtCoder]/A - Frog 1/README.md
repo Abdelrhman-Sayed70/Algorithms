@@ -1,0 +1,35 @@
+# A - Frog 1
+[A - Frog 1 | AtCoder](https://atcoder.jp/contests/dp/tasks/dp_a)
+
+## Approach
+- **We have 2 moves only** `i + 1` **and** `i + 2`.
+- **Base case → i reach** `n - 1` l**ast tower. So the cost will be 0**
+- **Statement → move to i + 1 and i + 2. But path i + 2 should be exist before moving so check first that the tower is in map. <br>
+So ans2 will be initialized to be impossible number [Invalid path] so if i cannot go to i+2 this means that i will choose the path i+1 (min).**
+
+## Solution
+```cpp
+ll solve(int i, int n, vector<int>& v, vector<int>&dp) {
+    // i make sure that this is only the base case as i move alwayes 1 move and move 2 under check
+    if (i == n - 1) { return 0; } 
+
+    if (dp[i] != -1) { return dp[i]; } // check dp
+
+    ll ans1 = abs(v[i] - v[i + 1]) + solve(i + 1, n, v,dp);
+
+    // set answer big number as if i can't move 2 steps so this path will be unavailable
+    ll ans2 = 1e5; 
+    if (i + 2 < n) {
+        ans2 = abs(v[i] - v[i + 2]) + solve(i + 2, n, v,dp);
+    }
+
+    dp[i] = min(ans1, ans2);
+    return dp[i];
+}
+int main() {
+    int n; cin >> n; 
+    vector<int>v(n), dp(n+5,-1);
+    for (int i = 0; i < n; i++) { cin >> v[i]; }
+    cout << solve(0, n, v, dp);
+}
+```
