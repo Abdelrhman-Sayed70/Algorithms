@@ -13,10 +13,11 @@ int main()) {
 }
 ```
 
-- **Notes: We have repeated sub-problems**
+- **We have overlapped sub-problems**
+- **We define out extra storage `dp` that will save answer of each sub-problem**
 - **Time Complexity → O(2^n)**
 
-## dp Solution
+## dp solution [Top-Down | Memoization]
 
 ```cpp
 vector<int>dp(100, -1);
@@ -39,3 +40,10 @@ void doIt() {
 
 - **Enhancement: We save the solution of each sub-problem so when I need it, I will call the answer directly, not start calculating it from beginning.**
 - **Time Complexity → O(n)**
+
+
+## dp solution [Bottom-Up | Tabulation]
+```cpp
+
+
+```
