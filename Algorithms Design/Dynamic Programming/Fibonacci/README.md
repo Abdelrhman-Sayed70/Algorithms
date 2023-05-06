@@ -50,3 +50,4 @@ int main() {
     cout << fib[n] << "\n";
 }
 ```
+**Can we enhance this solution? yup, use only the 2 previous variables and avoid using array**
