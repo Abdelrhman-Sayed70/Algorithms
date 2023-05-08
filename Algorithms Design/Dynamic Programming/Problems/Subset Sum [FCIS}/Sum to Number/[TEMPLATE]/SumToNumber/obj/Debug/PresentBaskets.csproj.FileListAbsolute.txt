@@ -1,0 +1,9 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\bin\Debug\PresentBaskets.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\obj\Debug\PresentBaskets.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\bin\Debug\PresentBaskets.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\bin\Debug\PresentBaskets.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\obj\Debug\PresentBaskets.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\obj\Debug\PresentBaskets.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[U3] Ali Baba assembling a team\[TEMPLATE]\AliBabaAssembleTeam\bin\Debug\PresentBaskets.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[U3] Ali Baba assembling a team\[TEMPLATE]\AliBabaAssembleTeam\obj\Debug\PresentBaskets.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[U3] Ali Baba assembling a team\[TEMPLATE]\AliBabaAssembleTeam\obj\Debug\PresentBaskets.pdb

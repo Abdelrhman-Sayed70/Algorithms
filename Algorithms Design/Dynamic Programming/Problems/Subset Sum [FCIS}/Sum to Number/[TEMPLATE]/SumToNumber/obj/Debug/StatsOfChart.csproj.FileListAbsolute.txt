@@ -1,0 +1,9 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[R2] Statistical analysis of graph charts\[SOLUTION]\StatsOfChart\bin\Debug\StatsOfChart.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[R2] Statistical analysis of graph charts\[SOLUTION]\StatsOfChart\obj\Debug\StatsOfChart.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[R2] Statistical analysis of graph charts\[SOLUTION]\StatsOfChart\bin\Debug\StatsOfChart.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[R2] Statistical analysis of graph charts\[SOLUTION]\StatsOfChart\bin\Debug\StatsOfChart.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[R2] Statistical analysis of graph charts\[SOLUTION]\StatsOfChart\obj\Debug\StatsOfChart.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[R2] Statistical analysis of graph charts\[SOLUTION]\StatsOfChart\obj\Debug\StatsOfChart.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\bin\Debug\StatsOfChart.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\obj\Debug\StatsOfChart.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\obj\Debug\StatsOfChart.pdb

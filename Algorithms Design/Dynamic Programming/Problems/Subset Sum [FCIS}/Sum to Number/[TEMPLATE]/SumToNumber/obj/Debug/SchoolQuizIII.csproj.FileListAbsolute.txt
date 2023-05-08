@@ -1,0 +1,2 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] School Quiz III\[SOLUTION]\SchoolQuizIII\bin\Debug\SchoolQuizIII.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\bin\Debug\SchoolQuizIII.exe.config

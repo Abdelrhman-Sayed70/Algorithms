@@ -1,0 +1,9 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R2] School Quiz II\[SOLUTION]\SchoolQuizII\bin\Debug\SchoolQuizII.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R2] School Quiz II\[SOLUTION]\SchoolQuizII\obj\Debug\SchoolQuizII.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R2] School Quiz II\[SOLUTION]\SchoolQuizII\bin\Debug\SchoolQuizII.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R2] School Quiz II\[SOLUTION]\SchoolQuizII\bin\Debug\SchoolQuizII.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R2] School Quiz II\[SOLUTION]\SchoolQuizII\obj\Debug\SchoolQuizII.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R2] School Quiz II\[SOLUTION]\SchoolQuizII\obj\Debug\SchoolQuizII.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] School Quiz III\[SOLUTION]\SchoolQuizIII\bin\Debug\SchoolQuizII.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] School Quiz III\[SOLUTION]\SchoolQuizIII\obj\Debug\SchoolQuizII.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] School Quiz III\[SOLUTION]\SchoolQuizIII\obj\Debug\SchoolQuizII.pdb

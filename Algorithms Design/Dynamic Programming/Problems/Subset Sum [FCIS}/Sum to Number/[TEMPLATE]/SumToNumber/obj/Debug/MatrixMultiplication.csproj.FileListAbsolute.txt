@@ -1,0 +1,9 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\bin\Debug\MatrixMultiplication.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\obj\Debug\MatrixMultiplication.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\bin\Debug\MatrixMultiplication.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\bin\Debug\MatrixMultiplication.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\obj\Debug\MatrixMultiplication.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P1] Matrix Mult\[SOLUTION]\MatrixMultiply\obj\Debug\MatrixMultiplication.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P2] Integer Mult\[SOLUTION]\IntegerMultiplication\bin\Debug\MatrixMultiplication.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P2] Integer Mult\[SOLUTION]\IntegerMultiplication\obj\Debug\MatrixMultiplication.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\BIG PROBLEMS\[P2] Integer Mult\[SOLUTION]\IntegerMultiplication\obj\Debug\MatrixMultiplication.pdb

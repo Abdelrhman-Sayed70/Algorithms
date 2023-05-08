@@ -1,0 +1,12 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\bin\Debug\SumToNumber.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\obj\Debug\SumToNumber.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\bin\Debug\SumToNumber.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\bin\Debug\SumToNumber.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\obj\Debug\SumToNumber.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[SOLUTION]\SumToNumber\obj\Debug\SumToNumber.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[TEMPLATE]\SumToNumber\bin\Debug\SumToNumber.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[TEMPLATE]\SumToNumber\obj\Debug\SumToNumber.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[TEMPLATE]\SumToNumber\obj\Debug\SumToNumber.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[TEMPLATE]\SumToNumber\bin\Debug\SumToNumber.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[TEMPLATE]\SumToNumber\bin\Debug\SumToNumber.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\DP\[R4] Sum to Number\[TEMPLATE]\SumToNumber\obj\Debug\SumToNumber.csprojResolveAssemblyReference.cache

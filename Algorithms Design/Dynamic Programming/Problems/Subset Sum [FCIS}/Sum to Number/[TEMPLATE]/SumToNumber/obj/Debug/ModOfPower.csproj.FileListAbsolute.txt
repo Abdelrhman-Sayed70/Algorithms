@@ -1,0 +1,9 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U3] Mod of Power\[TEMPLATE]\ModOfPower\bin\Debug\ModOfPower.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U3] Mod of Power\[TEMPLATE]\ModOfPower\obj\Debug\ModOfPower.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U3] Mod of Power\[TEMPLATE]\ModOfPower\bin\Debug\ModOfPower.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U3] Mod of Power\[TEMPLATE]\ModOfPower\bin\Debug\ModOfPower.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U3] Mod of Power\[TEMPLATE]\ModOfPower\obj\Debug\ModOfPower.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U3] Mod of Power\[TEMPLATE]\ModOfPower\obj\Debug\ModOfPower.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\bin\Debug\ModOfPower.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\obj\Debug\ModOfPower.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R3] PreparingPresentBaskets\[TEMPLATE]\PresentBaskets\obj\Debug\ModOfPower.pdb
