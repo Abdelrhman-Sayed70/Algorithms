@@ -7,7 +7,7 @@
 - **Definition of the current problem [Params]**
 
 ### `Transition` 
-- **Movement**
+- **Movement: Move the recursion from state to another state**
 - **Each transition create branch of tree**
 
 ### `Base case`
