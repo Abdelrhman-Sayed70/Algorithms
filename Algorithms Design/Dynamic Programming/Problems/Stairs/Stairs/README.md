@@ -1,4 +1,4 @@
-# Stairs
+# 1 2 3 Stairs
 ![image](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/4eacf3e1-7989-4e0a-8be5-f8d00e5d7a28)
 
 ## Recursive Solution
