@@ -3,21 +3,22 @@
 
 ## Solution 
 ```cpp
-int solve(int i, int cur, int target,vector<int>& v) {
-    if (i == v.size()) {
-        if (cur == target) { return 1; } 
-        else { return 0; }
+vector<int>path; 
+vector<vector<int>>paths;
+void solve(int i, int cur, int target, vector<int>& v) {
+    if (i == v.size()) { return; }
+    if (cur > target) { return; }
+    if (cur == target) {
+        paths.push_back(path);
+        return;
     }
-    int a = solve(i + 1, cur + v[i], target, v); 
-    int b = solve(i + 1, cur - v[i], target, v); 
-    return a + b; 
+    path.push_back(v[i]);
+    solve(i, cur + v[i], target, v);
+    path.pop_back();
+    solve(i + 1, cur, target, v);
 }
-void doIt() {
-    int n, target;
-    cin >> n >> target; 
-    vector<int>v(n);
-    for (auto& it : v) { cin >> it; } 
-    int ans = solve(0, 0, target, v);  
-    cout << ans << "\n";
+vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+    solve(0,0,target, candidates);
+    return paths;
 }
 ```
