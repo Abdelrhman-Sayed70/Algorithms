@@ -4,7 +4,7 @@
 
 
 
-## Recursive Solution
+## Backtracking Solution
 
 ```cpp
 int solve(int i, int j, vector<vector<int>>&v) {
