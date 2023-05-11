@@ -15,6 +15,7 @@ void solve(int i, int cur, int target, vector<int>& v) {
     path.push_back(v[i]);
     solve(i, cur + v[i], target, v);
     path.pop_back();
+    
     solve(i + 1, cur, target, v);
 }
 vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
