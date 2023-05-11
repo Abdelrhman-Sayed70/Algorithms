@@ -1,2 +1,2 @@
 # Target Sum
-### [Target Sum](https://leetcode.com/problems/target-sum/)
+### [Target Sum | LeetCode](https://leetcode.com/problems/target-sum/)
