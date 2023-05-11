@@ -3,19 +3,17 @@
 - Process in which function calls its self directly or indirectly. This function called `recursive function` 
 
 # Recursion Components
-### `State` 
-- **Definition of the current problem [Params]**
 
-### `Transition` 
+## `State`
+- **Definition of the current problem [Params]**
+## `Transition`
 - **Movement: Move the recursion from state to another state**
 - **Each transition create branch of tree**
-
-### `Base case`
+## `Base case`
 - **Stopping Condition**
-
-### `Tree`
+## `Tree`
 - **Each node has n branches [n number of transitions] and the leaves are the base case condition**
-- Use [Recursion Tree Visualizer](https://recursion.vercel.app/)
+- **Use** [**Recursion Tree Visualizer**](https://recursion.vercel.app/ "‌")
 
 
 # Recursion Types 
