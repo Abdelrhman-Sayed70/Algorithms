@@ -1,5 +1,5 @@
 # Target Sum
-### [Target Sum | LeetCode](https://leetcode.com/problems/target-sum/)
+### [Target Sum | Leetcode](https://leetcode.com/problems/target-sum/)
 
 ## Solution 
 ```cpp
