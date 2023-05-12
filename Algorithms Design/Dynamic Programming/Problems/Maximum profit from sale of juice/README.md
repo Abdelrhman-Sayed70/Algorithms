@@ -40,6 +40,9 @@ void doIt() {
 }
 ```
 
+## Materials 
+### [Maximum profit from sale of juice | Techdose](https://www.youtube.com/watch?v=f4jUEEzjEJw)
+
 ## Test case
 ![image](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/5a19fd46-8bb6-40c5-9d79-09c3a9f4e5f6)
 
