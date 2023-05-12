@@ -52,9 +52,10 @@
 - Called `Memoization`
 - `[When?]` no need to solve all sub-problems.
 
-    
-
-
 
 # Where to Solve
 - [Educational DP Contest | Atcoder](https://atcoder.jp/contests/dp/tasks)
+
+
+# Materials
+- [Dynamic Programming Newbie to Expert | Techdose](https://www.youtube.com/playlist?list=PLEJXowNB4kPxBwaXtRO1qFLpCzF75DYrS)
