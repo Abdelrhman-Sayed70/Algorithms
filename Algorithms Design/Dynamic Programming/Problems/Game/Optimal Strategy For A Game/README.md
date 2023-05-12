@@ -1,0 +1,2 @@
+# Optimal Strategy For A Game
+### [Optimal Strategy For A Game | GeeksForGeeks](https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article)
