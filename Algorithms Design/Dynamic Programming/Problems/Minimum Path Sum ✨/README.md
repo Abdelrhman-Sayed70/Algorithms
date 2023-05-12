@@ -38,7 +38,7 @@ void doIt() {
 }
 ```
 
-## dp Solution 
+## dp Solution [Recursive]
 ```cpp
 int solve(int i, int j, vector<vector<int>>&v, vector<vector<int>>&dp) {
     int n = v.size(), m = v[0].size(); 
@@ -71,5 +71,38 @@ void doIt() {
     }
     vector<vector<int>>dp(n, vector<int>(m, -1));
     cout << solve(0, 0, v, dp);
+}
+```
+
+## dp Solution [Iterative]
+```cpp
+void doIt() {
+    int n, m; 
+    cin >> n >> m; 
+    vector<vector<int>>v(n, vector<int>(m));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> v[i][j];
+        }
+    }
+    vector<vector<int>>dp(n, vector<int>(m, 0));
+    dp[0][0] = v[0][0]; 
+
+    // fill 1st col 
+    for (int i = 1; i < n; i++) 
+        dp[i][0] = v[i][0] + dp[i - 1][0]; 
+
+    // fill 1st row 
+    for (int j = 1; j < m; j++) 
+        dp[0][j] = v[0][j] + dp[0][j - 1]; 
+    
+    // fill the rest of dp
+    for (int i = 1; i < n; i++) {
+        for (int j = 1; j < m; j++) {
+            dp[i][j] = v[i][j] + min(dp[i][j - 1], dp[i - 1][j]);
+        }
+    }
+
+    cout << dp[n - 1][m - 1];
 }
 ```
