@@ -1,6 +1,5 @@
 # Maximum profit from sale of juice
 ### [Maximum profit from sale of juice | GeeksForGeeks](https://www.geeksforgeeks.org/maximum-profit-sale-wines/)
-![image](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/5a19fd46-8bb6-40c5-9d79-09c3a9f4e5f6)
 
 ## Backtracking Solution
 ```cpp
@@ -40,3 +39,7 @@ void doIt() {
     cout << solve(0, n - 1, 1, v, dp);
 }
 ```
+
+## Test case
+![image](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/5a19fd46-8bb6-40c5-9d79-09c3a9f4e5f6)
+
