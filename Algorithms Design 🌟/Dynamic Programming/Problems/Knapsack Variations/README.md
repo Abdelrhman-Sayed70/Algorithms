@@ -1,4 +1,5 @@
 # Knapsack Variations
+![image](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/8f9c362a-1520-4947-8b3b-6c9a5a0129cd)
 
 ## 💰 0 - 1 Knapsack
 - **Each item can be either included in the knapsack or not**
