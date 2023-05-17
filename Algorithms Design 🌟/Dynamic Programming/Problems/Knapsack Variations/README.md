@@ -3,7 +3,7 @@
 
 ## 💰 0 - 1 Knapsack
 - **Each item can be either included in the knapsack or not**
-- **We have at most one instance of each item in the knapsck**
+- **We have at most one instance of each item in the knapsack**
 
 ## 💰 Bounded Knapsack
 - **Each item can be excluded or included in the knapsck from 1 up to n instances not ∞**
