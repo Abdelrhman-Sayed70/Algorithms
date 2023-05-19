@@ -86,3 +86,130 @@ item # 2 with Wieght: 5
 item # 4 with Wieght: 6
 item # 5 with Wieght: 3
 ```
+
+
+# Unbounded knapsack [assignment soln]
+```cpp
+using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Security.Policy;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Problem
+{
+    // *****************************************
+    // DON'T CHANGE CLASS OR FUNCTION NAME
+    // YOU CAN ADD FUNCTIONS IF YOU NEED TO
+    // *****************************************
+    public static class AliBabaInParadise
+    {
+        #region YOUR CODE IS HERE
+        #region FUNCTION#1: Calculate the Value
+        //Your Code is Here:
+        //==================
+        /// <summary>
+        /// Given the Camels maximum load and N items, each with its weight and profit 
+        /// Calculate the max total profit that can be carried within the given camels' load
+        /// </summary>
+        /// <param name="camelsLoad">max load that can be carried by camels</param>
+        /// <param name="itemsCount">number of items</param>
+        /// <param name="weights">weight of each item</param>
+        /// <param name="profits">profit of each item</param>
+        /// <returns>Max total profit</returns>
+
+        // Dictionary that held taken items and number of instance of each one
+        static Dictionary<int, int> mp = new Dictionary<int, int>();
+
+        // Knapsack function that get the best profit
+        static int Knapsack(int i, int remain, int[] weight, int[] value, int n, int[,] dp)
+        {
+            if (i == n) { return 0; }
+
+            if (dp[i, remain] != -1) { return dp[i, remain]; } // retrieve the answer from dp
+
+            int take = -1;
+            if (remain >= weight[i])
+                take = value[i] + Knapsack(i, remain - weight[i], weight, value, n, dp);
+
+            int leave = Knapsack(i + 1, remain, weight, value, n, dp);
+
+            dp[i, remain] = Math.Max(take, leave); // save the answer in dp
+            return dp[i, remain];
+        }
+
+
+        static void Build(int i, int remain, int[] weight, int[] value, int n, int[,] dp)
+        {
+            if (i == n || remain == 0) { return; }
+
+            int dpVal = dp[i, remain];
+
+            // take
+            int take = -1;
+            if (remain >= weight[i])
+                take = value[i] + Knapsack(i, remain - weight[i], weight, value, n, dp);
+
+            // check if the current dp store the taken value
+            if (dpVal == take)
+            {
+                //System.Console.WriteLine(i + 1);
+                if (mp.ContainsKey(i + 1)) { mp[i + 1]++; }
+                else { mp.Add(i + 1, 1); }
+
+                Build(i, remain - weight[i], weight, value, n, dp);
+                return;
+            }
+
+            // leave
+            Build(i + 1, remain, weight, value, n, dp);
+            return;
+        }
+
+        static public int SolveValue(int camelsLoad, int itemsCount, int[] weights, int[] profits)
+        {
+            // Reset map
+            mp.Clear();
+
+            // Create dp and initialize it with -1
+            int[,] dp = new int[itemsCount, camelsLoad + 1];
+            for (int i = 0; i < itemsCount; i++)
+            {
+                for (int j = 0; j <= camelsLoad; j++)
+                {
+                    dp[i, j] = -1;
+                }
+            }
+
+            // Get the best profit
+            int ans = Knapsack(0, camelsLoad, weights, profits, itemsCount,  dp);
+            
+            // Construct Solution
+            Build(0, camelsLoad, weights, profits, itemsCount, dp);
+
+            // Return max profit
+            return ans;
+        }
+        #endregion
+
+        #region FUNCTION#2: Construct the Solution
+        //Your Code is Here:
+        //==================
+        /// <returns>Tuple array of the selected items to get MAX profit (stored in Tuple.Item1) together with the number of instances taken from each item (stored in Tuple.Item2)
+        /// OR NULL if no items can be selected</returns>
+        static public Tuple<int, int>[] ConstructSolution(int camelsLoad, int itemsCount, int[] weights, int[] profits)
+        {
+            // Convert map into tuble array
+            Tuple<int, int>[] tupleArray = mp.Select(kvp => Tuple.Create(kvp.Key, kvp.Value)).ToArray();
+
+            return tupleArray;
+        }
+        #endregion
+
+        #endregion
+    }
+}
+```
