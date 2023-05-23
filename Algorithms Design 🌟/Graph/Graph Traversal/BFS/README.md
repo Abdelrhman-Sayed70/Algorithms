@@ -45,6 +45,7 @@ void bfs(int node, vector<vector<int>>& graph) {
         }
         color[current] = 'b';
     }
+    color[node] = 'b';
 }
 void doIt() {
     int vertices, edges; cin >> vertices >> edges;
