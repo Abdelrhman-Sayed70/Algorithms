@@ -52,17 +52,16 @@
 >   ➙ number of edges `graph size` = V^2 <br>
 > - Sparse graph: graph with number of edges `graph size` = V 
 
-# `Complexity`
+# ⚪ Complexity
 - In term of number of `edges` & `vertices`
 - O(vertices + edges)
 
-# `Question`
+# ⚪ Question
 - Consider an undirected graph that has V vertices, no parallel edges, and is connected (i.e., “in one piece”). What is the minimum and maximum number of edges that the graph could have, respectively?   
  `V-1` `(V - 1) * V / 2`
 
-# `Common Problems`
+# ⚪ Common Problems
 - **Connectivity**: Can i reach form node A to B ?
-  
 - **Generate Connected Components**: Components is nodes that generate connected graph
-  
 - **Shotest Path**
+- **Min Cost**
