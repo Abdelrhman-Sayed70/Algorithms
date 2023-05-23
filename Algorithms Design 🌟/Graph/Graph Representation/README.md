@@ -1,6 +1,6 @@
 # Graph Represenation
 # Materials
-- ### [`Graph Represenation | CS Academy`](https://csacademy.com/lesson/graph_representation)
+### [Graph Represenation | CS Academy](https://csacademy.com/lesson/graph_representation)
 
 # Input & Basic Output Graph  
 ```cpp
