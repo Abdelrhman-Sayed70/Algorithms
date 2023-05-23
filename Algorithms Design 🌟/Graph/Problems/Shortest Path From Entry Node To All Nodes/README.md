@@ -3,6 +3,8 @@
 **Given entry node print the shortest path [edges] visited for each node in the graph. If there is no connection between the entry node and any other one print -1.<br>
 Find the problem here. First task at [Shortest paths | CS Academy](https://csacademy.com/lesson/breadth_first_search)**
 
+## 💭 Approach 
+**DFS by nature get the shortest path from entry node to all other nodes**
 
 # Code
 ```cpp
