@@ -21,7 +21,7 @@ void bfs(int node, vector<vector<int>>& graph) {
 }
 ```
 
-## Traverse with Level, Parent & Color
+## ☢ Traverse with Level, Parent & Color 
 ```cpp
 vector<char>color(100, 'w');
 vector<int>level(100), parent(100);
