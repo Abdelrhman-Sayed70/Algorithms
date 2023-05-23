@@ -2,7 +2,7 @@
 **`Breadth First Search` Traverse the graph level by level**
 # Tutorials
 - [BFS Toutorial | CS Academy](https://csacademy.com/lesson/breadth_first_search)
-## Traverse
+# Traverse
 ```cpp
 bool visited[1000];
 void bfs(int node, vector<vector<int>>& graph) {
@@ -21,7 +21,7 @@ void bfs(int node, vector<vector<int>>& graph) {
 }
 ```
 
-## ☢ Traverse with Level, Parent & Color 
+# ☢ Traverse with Level, Parent & Color 
 ```cpp
 vector<char>color(100, 'w');
 vector<int>level(100), parent(100);
