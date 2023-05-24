@@ -2,7 +2,7 @@
 ## [Rumor | Codeforces](https://codeforces.com/contest/893/problem/C)
 
 ## Approach 
-- **Get the min cost of nodes for each component**
+**Get the min cost of nodes for each component**
 ## Solution 
 ```cpp
 unordered_map<int, bool>visited;
