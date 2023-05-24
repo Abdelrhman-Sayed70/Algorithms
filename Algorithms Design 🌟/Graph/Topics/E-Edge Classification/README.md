@@ -80,4 +80,4 @@ void doIt() {
 ```
 **Notes**
 - There are no cross edges in undirected graph.
-- Alwayes number of backword edges equal to number of forward edges.
+- In Undirected graph alwayes number of backword edges equal to number of forward edges.
