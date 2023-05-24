@@ -23,7 +23,7 @@
 - On tree the edge connects 2 nodes in different trees, or 2 different branches in the same tree
 - Go to **Black** node & discoveryTime(source) > discoveryTime(destination)
 
-# Edge Classification for Undirected Graph
+# Edge Classification [Directed & Undirected]
 ```cpp
 int backword, forwardd, cross, Time;
 vector<char> color(100, 'w');
