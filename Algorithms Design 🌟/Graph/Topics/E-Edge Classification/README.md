@@ -34,7 +34,7 @@ void dfs(int node, vector<vector<int>>& graph) {
     Time++;
     color[node] = 'g';
     discovery[node] = Time;
-    cout << "node: " << node << ", parent: " << parent[node] << " d: " << discovery[node] << "\n";
+    cout << "node: " << node << ", parent: " << parent[node] << " discovery time: " << discovery[node] << "\n";
     for (auto child : graph[node]) {
         // node is the source and child is the destination 
         if (color[child] == 'w') {
@@ -50,19 +50,23 @@ void dfs(int node, vector<vector<int>>& graph) {
             cout << "forward edge: " << node << " -> " << child << "\n";
             forwardd++;
         }
+        else if (color[child] == 'b' and discovery[node] > discovery[child]) {
+            cout << "cross edge: " << node << " -> " << child << "\n";
+            cross++;
+        }
     }
     color[node] = 'b';
     delivery[node] = Time + 1;
 }
-int main() {
+void doIt() {
     backword = forwardd = cross = Time = 0;
     int vertices, edges; cin >> vertices >> edges;
-    vector<vector<int>>graph(vertices);
+    vector<vector<int>>graph(vertices + 1);
     for (int i = 0; i < edges; i++) {
         int u, v, c;
         cin >> u >> v;
         graph[u].push_back(v);
-        graph[v].push_back(u);
+        graph[v].push_back(u); // for undirected graph
     }
     for (int i = 0; i < vertices; i++) {
         if (color[i] == 'w') {
@@ -71,6 +75,7 @@ int main() {
     }
     cout << "\nNumber of backward edges: " << backword << "\n";
     cout << "Number of forward edges: " << forwardd << "\n";
+    cout << "Number of cross edges: " << cross << "\n";
 }
 ```
 **Notes**
