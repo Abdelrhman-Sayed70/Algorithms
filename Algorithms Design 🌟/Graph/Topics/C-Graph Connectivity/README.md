@@ -27,6 +27,7 @@ int main() {
 ```
 
 ## Check Connection between 2 nodes [Directed & Undirected]
+### [Find if Path Exists in Graph | Leetcode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)
 ```cpp
 bool checkConecction(int node, int target, vector<vector<int>>& graph) {
     visited[node] = true;
