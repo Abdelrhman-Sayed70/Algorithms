@@ -5,7 +5,7 @@
 - So, if you are on point (i,j), you can move to (i - 1, j), (i + 1, j), (i, j + 1), (i, j - 1), but first you need to check if the point you are traversing to is in _**borders**_.
 
 # Problems
-- [Fire Again | CodeForces](https://codeforces.com/contest/35/problem/C)
+### [Fire Again | CodeForces](https://codeforces.com/contest/35/problem/C)
 
 # Traversal
 ```cpp
