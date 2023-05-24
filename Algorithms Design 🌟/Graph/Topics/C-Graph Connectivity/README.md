@@ -56,3 +56,39 @@ int main() {
     checkConecction(a, b, graph) ? yes : no;
 }
 ```
+```cpp
+vector<char>color(100, 'w');
+bool bfs(int node, int target, vector<vector<int>>& graph) {
+    queue<int>nextToVisit;
+    nextToVisit.push(node);
+    color[node] = 'g';
+    while (nextToVisit.size()) {
+        int current = nextToVisit.front();
+        //cout << current << "\n";
+        nextToVisit.pop();
+        for (auto child : graph[current]) {
+            if (color[child] == 'w') {
+                if (child == target) { return true; }
+                nextToVisit.push(child);
+                color[child] = 'g';
+            }
+        }
+        color[current] = 'b';
+    }
+    return false;
+}
+void doIt() {
+    int vertices, edges; cin >> vertices >> edges;
+    vector<vector<int>>graph(vertices + 1);
+    for (int i = 0; i < edges; i++) {
+        int u, v, c;
+        cin >> u >> v;
+        graph[u].push_back(v);
+        graph[v].push_back(u);
+    }
+    int start, target;
+    cin >> start >> target; 
+    bool valid = bfs(start, target, graph) || (start == target);
+    valid ? yes : no;
+}
+```
