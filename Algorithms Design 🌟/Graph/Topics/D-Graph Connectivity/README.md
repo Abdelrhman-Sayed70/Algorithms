@@ -1,6 +1,9 @@
 # Graph Connectivity
 ## Check Graph Connectivity [Directed & Undirected]
 **`Graph Contains n nodes which equal to number of vertices`**
+- `Directed : Better to DFS`
+- `Undirected : Better to BFS`
+
 
 ```cpp
 bool visited[1000];
