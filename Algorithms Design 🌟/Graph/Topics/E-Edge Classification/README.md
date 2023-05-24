@@ -2,7 +2,7 @@
 
 # Color Reference
 
-- **White** ▶ have not been discovered.
+- **White** ▶ has not been discovered.
 - **Grey** ▶discovered but not fully explored.
 - **Black ▶** discovered and fully explored.
 
