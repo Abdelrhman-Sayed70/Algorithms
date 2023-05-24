@@ -1,8 +1,8 @@
 # `Directed Graph Cycle Detection` 
 ### [Detect cycle in a directed graph | GeeksForGeeks](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)
-## Approach
+## `Approach`
 **The only difference between this this approach and the approach if undirected graph is the check if the child not equal to the parent of this child**
-## Solution
+## `Solution`
 ```cpp
 bool ok = false;
 void dfs(int node, vector<int>graph [], vector<char>& color, vector<int>& parent) {
