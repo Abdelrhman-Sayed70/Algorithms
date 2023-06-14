@@ -1,5 +1,5 @@
 # Selection Sort
-![image](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/c2afa736-ed5f-46f5-b21d-5f0acaa4971b)
+ ![0_R0MHc4Hd26q6FPut](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/b46cfecf-8371-4f78-ac38-3ca46e8dfb40)
 
 # Algorithm
 - From index i search for the min value in the remaining array and swap it with value at index i.
