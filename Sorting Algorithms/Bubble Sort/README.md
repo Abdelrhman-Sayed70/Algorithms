@@ -1,4 +1,5 @@
 # Bubble Sort
+![0_nh6F_qERbgD3xmV-](https://github.com/Abdelrhman-Sayed70/Algorithms/assets/99830416/863e0e5a-13fc-4603-a85f-2d5dedb2abd8)
 
 # Algorithm
 - Check for each 2 consecutive elements and swap them if the first is greater than the second
