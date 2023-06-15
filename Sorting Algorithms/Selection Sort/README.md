@@ -27,7 +27,7 @@ void selectionSort(vector<int>&v) {
 - Average Case : Θ(n^2)
 
 # Advantages 
-- Min number of swaps O(n) swaps
+- Min number of swaps O(n) swaps [memory read & write]
 
 # DisAdvantages
 - O(n^2) in all Cases
