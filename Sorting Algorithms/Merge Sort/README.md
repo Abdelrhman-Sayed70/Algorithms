@@ -54,6 +54,7 @@ void mergeSort(vector<int>&v, int left, int right)
 # Advantages 
 - O(N.Log(n)) in all cases
 - Can be parallized
+- Work well in case of small RAM
 # Disadvantages
 - Requires extra space `array of size n` cause of **Out Place** -> sort in another array. `Can we do better?` <br>
   YES, we can use extra array of size n/2 not n. We will move the first sub-array into this array and update the original one.🤝🏻
