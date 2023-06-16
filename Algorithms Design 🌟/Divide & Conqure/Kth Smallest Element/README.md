@@ -3,13 +3,13 @@
 # Approach 
 
 ### `Divide`
-- Select a **Pivot** and place it in its proper place (all array element that are smaller than it must be in its left and greter element must be in its right
+**Select a **Pivot** and place it in its proper place (all array element that are smaller than it must be in its left and greter element must be in its right**
 
 ### `Conquer`
-- Compare the K with the pivot index <br>
+**Compare the K with the pivot index**
 
-  ‣ If K < PivotIdx then recursively saarch in the left part for K index <br>
-  ‣ Else if K > PivotIdx then recursively saarch in the right part for K - PivotIdx index 
+- If K < PivotIdx then recursively saarch in the left part for K index
+- Else if K > PivotIdx then recursively saarch in the right part for K - PivotIdx index 
   
   
 ### `Combine` 
