@@ -13,6 +13,7 @@
 - Iterate over the sorted array and check if the current `start time` >= `last finish time` then take this activity and update the last finish time by the finish time of this activity. Else continue 
 
 
+
  
 ## Code
 ```cpp
